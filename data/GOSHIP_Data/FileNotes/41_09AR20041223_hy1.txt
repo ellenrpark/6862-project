@@ -1,0 +1,28 @@
+BOTTLE 20140617SIOCCHRJL
+# Change CTDOXY empty data value from flag 2 to flag 9
+# BOTTLE 20140512PRINUNIVRMK
+# Original header:
+# 4/2/2013 Initialized README file  
+# Data source: CCHDO on 9/13/07; CFC and carbon from Tilbrook 3/25/13 
+# SHIP: Aurora Australis 
+# Cruise: AU0403 
+# Region: SE Indian Ocean; I09S  
+# EXPOCODE: 09AR20041223 
+# DATES: 12/23/2004 - 2/17/2005 
+# Chief Scientist: S.Rintoul 
+# 115 stations with 24 place Rosette 
+# Hydro: Who - S.Rintoul; Status - final 
+# 	Notes: New CTDOXY in file from M.Rosenberg 5/2/14 
+# Nuts: Who - S.Rintoul; Status - final 
+# 	Notes: Nitrate is really NO3+NO2 
+# 	Revised nutrients from M.Rosenberg 5/2/14 
+# O2: Who - S.Rintoul; Status - final 
+# 	Notes: Additional QC by R.Key 
+# 	Revised oxygen values from M.Rosenberg 5/2/14 
+# TCO2: Who - B.Tilbrook; Status - final 
+# 	Notes:  
+# TA: Who - B.Tilbrook; Status - final 
+# 	Notes:  
+# CFC: Who - S.Watanabe K.Sasaki; Status - final 
+# 	Notes: JAMSTEC 
+# References: 

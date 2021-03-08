@@ -1,0 +1,93 @@
+BOTTLE 20201109CCHSIOCBG
+# Merged parameters: DOC  BRDU  CTDRAW
+# 20150511CCHSIOCBG
+# Merged parameters: EXPOCODE  TRITUM  TRITUM_FLAG_W  TRITER
+# 20141021CCHSIOCBG
+# Merged parameters: THETA  HELIUM  HELIUM_FLAG_W  DELHE3  DELHE3_FLAG_W  NEON  NEON_FLAG_W  NEONER  HELIER  DELHER
+# BOTTLE 20140926PRINUNIVRMK
+# UPdate from CCHDO 1/19/09
+# 9/26/14 Initialized README file
+# Data source: CCHDO 11/07/06
+# SHIP: R/V Revelle
+# Cruise: P16S_2005
+# Region: Southcentral Pacific
+# EXPOCODE: 33RR20050106
+# DATES: Jan 6 - Feb 19  2005
+# Chief Scientist:B. Sloyan  J. Swift
+# 111 stations with 36 place Rosette
+# Hydro: Who - J.Swift ; Status - final
+#       Notes:
+# Nuts: Who - J.Swift; Status -final
+#       Notes:
+# O2: Who - J.Swift; Status - final
+#       Notes:
+# TCO2: Who - R.Feely&C.Sabine; Status -final
+#       Notes:
+# TA: Who - A.Dickson; Status - final
+#       Notes:
+# CFC: Who - R.Fine; Status - final
+#       Notes:
+# C14: Who - R.Key&A.Mcnichol; Status - final
+#       Notes:
+# H3/He3: Who - P.Schlosser; Status -final
+#       Notes:
+# DOC/DON: Who - D.Hansell&C.Carlson; Status -
+#       Notes:
+# References:
+# 20130943SIOCCHRJL
+# Added instructions for citation use
+# BOTTLE 20090504CCHDOSIODBK
+# code : Justin Fields hyd_to_exchange.rb 
+# original files copied from HTML directory: 2009-01-13
+# original HYD file: /Users/danie/CLIVAR/p16s/mrg_vrsns/p16s_2005ahy.txt  2009-01-13
+# original SUM file: /Users/danie/CLIVAR/p16s/mrg_vrsns/p16s_2005asu.txt  2009-01-09
+#
+#|CCHDO Citation Information
+#|
+#|Please cite data downloaded from CCHDO as: [Data providers of the parameter(s) used]. [Year of file access]. [CTD/Bottle] data from cruise [expocode]  [format version used]. Accessed from CCHDO [url of cruise data page]. Access date [date of download]. [Applicable CCHDO cruise DOI if provided].
+#|
+#|For example: Swift  J. and Becker  S. 2019. CTD data from Cruise 33RR20160321  exchange version. Accessed from CCHDO https://cchdo.ucsd.edu/cruise/33RR20160321. Access date 2019-08-21. CCHDO cruise DOI: 10.7942/C2008W
+#|
+#|Information on the scientists who provided the different parameters can be found in the cruise report. Additionally  for US GO-SHIP cruises  this information is usually in the comments section in the text headers of the Exchange bottle files.
+#|
+#|Users are also encouraged to acknowledge the funding program that supported the data collection in their publication. For US GO-SHIP data this is the NSF/NOAA funded U.S Repeat Hydrography Program.
+#|
+#|For data citation  please use the data providers listed below. 
+#|
+#|Programs and Principal Investigators
+#|
+#| PARAMETER                PRINCIPAL INVESTIGATOR-       EMAIL ADDRESS
+#|                          INSTITUTION               
+#|-----------------------  ----------------------------    --------------------------
+#| CTDO/S/O2/Nutrients      Jim Swift-UCSD/SIO            jswift@ucsd.edu                       
+#| Transmissometer          Wilf Gardner-TAMU             wgardner@ocean.tamu.edu
+#| CO2-Alkalinity           Andrew Dickson-UCSD/SIO       adickson@ucsd.edu                
+#| CO2-DIC + Underway pCO2  Dick Feely-NOAA               Richard.A.Feely@pmel.noaa.gov
+#|                          Chris Sabine-NOAA             chris.sabine@noaa.gov
+#| DOC/DON                  Dennis Hansell-RSMAS-UMiami   dhansell@rsmas.miami.edu
+#|                          Craig Carlson-UCSB            carlson@lifesci.ucsb.edu
+#| CDOM                     Dave Siegel-UCSB              davey@icess.ucsb.edu
+#|                          Norm Nelson-UCSB              norm@icess.ucsb.edu
+#|                          Craig Carlson-UCSB            carlson@lifesci.ucsb.edu
+#| C-13/C-14                Ann McNichol-WHOI             amcnichol@whoi.edu
+#|                          Robert Key-Princeton          key@princeton.edu
+#| CFCs                     Rana Fine-RSMAS-UMiami        rfine@rsmas.miami.edu   
+#| He-3/Tritium             Peter Schlosser-LDEO          schlosser@ldeo.columbia.edu
+#| ADCP/LADCP               Eric Firing-UHawaii           firing@hawaii.edu               
+#| Trace Elements           Chris Measures-UHawaii        chrism@soest.hawaii.edu
+#|                          Bill Landing- FSU             landing@ocean.fsu.edu
+#| ARGO Floats              Greg Johnson-NOAA             gregory.c.johsnon@noaa.gov
+#|                          Elizabeth Steffen-NOAA        elizabeth.steffen@noaa.gov
+#| 15N                      Daniel Sigman-Princeton       sigman@princeton.edu
+#|                          Peter DiFiore-Princeton       pdifiore@princeton.edu
+#|
+#|
+#| Following American Geophysical Union recommendations  the data should be
+#| cited as: "data provider(s)  cruise name or cruise ID  data file name(s) 
+#| CLIVAR and Carbon Hydrographic Data Office  La Jolla  CA  USA  and data
+#| file date." For further information  please contact one of the parties
+#| listed above or cchdo@ucsd.edu. Users are also requested to acknowledge
+#| the NSF/NOAA-funded U.S. Repeat Hydrography Program in publications resulting
+#| from their use.
+#|
+#|

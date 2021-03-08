@@ -1,6 +1,6 @@
-input="/Users/Ellen/Documents/Python/StartUp/GetArgoData_TextFiles/goodcoriolis.txt"
+input="/Users/Ellen/Documents/GitHub/6862-project/data/Argo_Data/GetArgoData_TextFiles/goodcoriolis.txt"
 while IFS= read -r line
 do
 echo "$line"
-rsync -avzh --delete vdmzrs.ifremer.fr::argo/$line /Users/Ellen/Documents/Python/StartUp/miniDac/dac/coriolis
+rsync -avzh --delete vdmzrs.ifremer.fr::argo/$line /Users/Ellen/Desktop/ArgoGDAC/dac/coriolis
 done < "$input"

@@ -18,7 +18,7 @@ import glob
 # 1. Output an index file containing floats of interest
 # 2. Out float IDs by specific BGC variables
 
-def GetArgoData(RegionOI, Ocean, FloatType, SensorTypes, ArgoDacDir, SaveFileDir):
+def GetArgoData(RegionOI, FloatType, SensorTypes, ArgoDacDir, SaveFileDir):
     # RegionOI:[N, S, E, W]
     # Dir='/Users/Ellen/Documents/GitHub/BGCArgo_BCGyre/TextFiles/'
     # Ocean: 'A','I', 'P'
@@ -83,6 +83,9 @@ def GetArgoData(RegionOI, Ocean, FloatType, SensorTypes, ArgoDacDir, SaveFileDir
         with open(index_file) as fp:
             Lines = fp.readlines()
             for line in Lines:
+            #for jj in np.arange(len(Lines)):
+            #for jj in [868]:
+                #line=Lines[jj]
                 count += 1
                 #print("Line{}: {}".format(count,line.strip()))
                 #print(line.strip())
@@ -106,43 +109,36 @@ def GetArgoData(RegionOI, Ocean, FloatType, SensorTypes, ArgoDacDir, SaveFileDir
                 if x_split[0][0] != '#' and x_split[0][0] != 'f':
                     ## Check if in the right ocean (ocean == A) (Can be A, P, or I)
                     # Loop through data to get to the ocean...
-                    TotalParameters=x_split[7].split(' ')
-                    # Check if ocean is atlantic ocean
-                    #print('Starting ocean check')
-                    ocean=x_split[4]
-                    #print(ocean)
-        
-                    if ocean == Ocean:
-                        # Float is in correct Ocean
+                    TotalParameters=x_split[7].split(' ')        
+                    sensor_chkpt=np.NaN
+                    
+                    # Make sure float measures desired varaibles
+                    if SenseCheck[ii] == 1:
+                        total_sensors=len(SensorTypes)
+                        sense_count = 0
                         
-                        sensor_chkpt=np.NaN
+                        for param in TotalParameters:  
+                            for sensor in total_sensors:
+                                if param == sensor:
+                                    sense_count=sense_count+1
                         
-                        # Make sure float measures desired varaibles
-                        if SenseCheck[ii] == 1:
-                            total_sensors=len(SensorTypes)
-                            sense_count = 0
-                            
-                            for param in TotalParameters:  
-                                for sensor in total_sensors:
-                                    if param == sensor:
-                                        sense_count=sense_count+1
-                            
-                            if sense_count == total_sensors:
-                                sensor_chkpt=1
-                        else:
+                        if sense_count == total_sensors:
                             sensor_chkpt=1
+                    else:
+                        sensor_chkpt=1
+                    
+                    if np.isnan(sensor_chkpt) == False:
+                        # Continue on with search and check position
+                        # Narrow search to geographic region (lat, lon)
+        
+                        # Check 1: is lat in desired range?
+        
+                        lat=x_split[2]
+                        lon=x_split[3]
                         
-                        if np.isnan(sensor_chkpt) == False:
-                            # Continue on with search and check position
-                            # Narrow search to geographic region (lat, lon)
-            
-                            # Check 1: is lat in desired range?
-            
-                            lat=x_split[2]
-                            lon=x_split[3]
-            
-                            #print('Start lat check')
-            
+                        #print('Start lat check')
+                        #print(jj,lon, lat)
+                        if lat != '' and lon != '':
                             if ((float(lat) >= lat_S) and (float(lat)<=lat_N)):
                                 # Float is in the correct latitude range
                                 # If Check 1 == Yes --> Check 2: is lon in desired range?
@@ -155,19 +151,11 @@ def GetArgoData(RegionOI, Ocean, FloatType, SensorTypes, ArgoDacDir, SaveFileDir
                                     file=x_split[0]
                                     good_fname=good_fname+[file]
                                     total_index=total_index+[x]
+                                
             
                                     goodArgo = goodArgo +1
-            
-                            #else:
-                                #print("Float in correct lat but wrong lon")
-            
-                        #else:
-                            #print('Float not in correct lat region')
-            
-            
-                   # else:
-                        # Not in Atlantic stop search
-                        #print('Not in Atlantic')
+                                    print(lon, lat, goodArgo)
+    
     
    # print(total_index)
     print('File reading completed')
@@ -351,7 +339,7 @@ def WriteBashFiles(TextDir,SaveFileDir,ArgoDacDir):
         line2='while IFS= read -r line'
         line3='do'
         line4='echo "$line"'
-        line5='rsync -avzh --delete vdmzrs.ifremer.fr::argo/$line '+ArgoDacDir+'/dac/'+dac
+        line5='rsync -avzh --delete vdmzrs.ifremer.fr::argo/$line '+ArgoDacDir+'dac/'+dac
         line6='done < "$input"'
         
         AllLines=[line1, line2, line3, line4, line5, line6]

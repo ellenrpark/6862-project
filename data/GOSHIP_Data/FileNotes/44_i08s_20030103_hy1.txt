@@ -1,0 +1,5 @@
+BOTTLE 20070703WHPSIODBK
+#code : jjward hyd_to_exchange.pl 
+#original files copied from HTML directory: 20070703
+#original HYD file: i08s_20030103hy.txt   Tue Jul  3 13:08:35 2007
+#original SUM file: i08s_20030103su.txt   Mon Jul  2 17:56:24 2007

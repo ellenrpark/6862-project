@@ -1,0 +1,146 @@
+BOTTLE 20190305SIOCCHCBG
+#|  Following American Geophysical Union recommendations  the data should be
+#|  cited as: "data provider(s)  cruise name or cruise ID  data file name(s) 
+#|  CLIVAR and Carbon Hydrographic Data Office  La Jolla  CA  USA  and data
+#|  file date." For further information  please contact one of the parties
+#|  listed above or cchdo@ucsd.edu. Users are also requested to acknowledge
+#|  the NSF/NOAA-funded U.S. Repeat Hydrography Program in publications resulting
+#|  from their use.
+#
+#|  The data included in these files are preliminary  and are
+#|  subject to final calibration and processing. They have been
+#|  made available for public access as soon as possible following
+#|  their collection.  Users should maintain caution in their
+#|  interpretation and use.
+#
+#BOTTLE 20190305SIOCCHCBG
+# Merged parameters: TCARBN  TCARBN_FLAG_W  ALKALI  ALKALI_FLAG_W  PH_TOT_FLAG_W  PH_TMP
+# Merged parameters: DEPTH  CTDOXY  CTDRINKO  CTDRINKO_FLAG_W
+#
+#BOTTLE 20180513SIO
+# ## DATA ARE PRELIMINARY ##
+# DEPTH = (gsw Z_from_P with corrected max pressure) + (altimeter reading)
+#
+#BOTTLE 20181211PRINUNIVRMK
+# 06/02/2017 Initialized README file  
+# Data source: very preliminary 5/24/18 
+# SHIP: N.B. Palmer 
+# Cruise: NBP18_02 
+# Region: S04P; zonal Pacific section at ~67S; P15S & P16S south of 67S 
+# EXPOCODE: 320620180309 
+# DATES: 32060309 - 32060514 
+# Chief Scientist: Alison Macdonald 
+# xx stations with 36 place Rosette 
+# SOCCOM Biogeochemical floats deployed by Ellen Briggs 
+# No.   Sta   WMO_ID     Lat       Lon       Date            FLID   Name                             Adoption School 
+# 1      10  5905634   -71.008  -170.002   20180321   12768   The Floating Falcon       Fall River Elementary  Big Sandy  WV
+# 2      18  5905638   -67.617   173.521   20180325   12398   MVE Super Seal            Monte Vista Elementary  Monterey  CA
+# 3      28  5905635   -66.998  -173.670   20180329   12701   Thunderbird-Martlet       UBC/McGill/Reed/U.Toronto; Office Polar Prog. 
+# 4      50  5905637   -69.012  -150.038   20180407   12758   Tidal Wave                New Hanover Township School  Wrightstown  NJ  Class of 2020
+# 5      68  5905636   -66.997  -149.248   20180417   12754   Griffin-Eagle             UBC/McGill/Reed/U.Toronto; Office Polar Prog. 
+# 6      82  5905639   -67.003  -129.517   20180422   12787   Southern Ocean Spy        New Hanover Township School  Wrightstown  NJ  Class of 2021
+# Supported by NSF Award PLR-1425989 to J.L. Sarmiento et al.  
+# CTD: Who - J.Swift; Status - preliminary 
+#       Includes: CTDSAL  CTDOXY
+#       Transmissometer Wilf Gardner  FLBB E.Boss
+# Salinty: Who - J.Swift; Status - preliminary 
+#       Notes:   
+# Nutrients: Who - J.Swift; Status - preliminary 
+#       Includes: nitrate  nitrite  silicate  phoshphate
+# O2: Who - J.Swift; Status - preliminary 
+#       Notes: 
+# TCO2: Who - R.Wanninkhof;R.Feely; Status - intermediate 
+#       Notes:  added with QC 12/11/18 
+# ALKALI: Who - A.Dickson;F.Millero; Status - preliminary 
+#       Notes:  added with QC 12/11/18 
+# pH: Who - A.Dickson;F.Millero; Status - preliminary 
+#       Notes:  Total scale @ 25C 
+#               added with QC 12/11/18 
+# pCO2: Who - R.Wanninkhof;T.Takahashi; Status - collected 
+#       Notes: Underway only 
+# CFC: Who - M.Warner; Status - preliminary 
+#       Notes:  
+# C14/C13: Who - R.Key A.McNichol; Status - collected
+#       Notes:  
+# He/Ne/Kr: Who - F.Straneo  N.Beaird; Status - collected
+#       Notes:  
+# d18O: Who - L. Talley  C. Charles  N. Beaird  F. Straneo; Status - collected
+#       Notes: 
+# HPLC:  Who - E. Boss; Status - collected 
+#       Notes: supported by NASA grant NNX14AP49G 
+# DOC/TDN: Who - C.Carlson D.Hansell; Status - collected
+#       Notes:  
+# POC: Who - E. Boss; Status - collected 
+#       Notes: supported by NASA grant NNX14AP49G  
+# Other: Who - ; Status - 
+#       Notes:  
+# These data should be cited as: 
+# References that have used data from this cruise: 
+# 
+# -----------------------------------------------------------------------------------------------
+# Programs and Principal Investigators
+# -----------------------------------------------------------------------------------------------
+#
+# Chief Scientist         | WHOI               | Alison Macdonald    | amacdonald@whoi.edu      
+# Co-Chief Scientist      | UCSD               | Ellen Briggs        | ebriggs@ucsd.edu         
+#
+# Program                 | Affiliation        | Principal           | Email                    
+#                         |                    | Investigator        |
+# ========================|====================|=====================|===========================
+# CTDO Data  Salinity     | UCSD  SIO          | Susan Becker        | sbecker@ucsd.edu 
+# Nutrients  Dissolved O2 |                    | Jim Swift           | jswift@ucsd.edu
+# ------------------------+--------------------+---------------------+---------------------------
+# Total CO_2 (DIC)        | PMEL  AOML  NOAA   | Richard Feely       | Richard.A.Feely@noaa.gov
+#                         |                    | Rik Wanninkhof      | Rik.Wanninkhof@noaa.gov  
+# ------------------------+--------------------+---------------------+---------------------------
+# Underway Temperature    | AOML  NOAA  ASC    | Rik Wanninkhof      | Rik.Wanninkhof@noaa.gov
+# Salinity  and pCO_2     |                    | ASC                 | admin@nbp.usap.gov
+# ------------------------+--------------------+---------------------+---------------------------
+# Total Alkalinity  pH    | UCSD               | Andrew Dickson      | adickson@ucsd.edu
+# ------------------------+--------------------+---------------------+---------------------------
+# SADCP                   | UH                 | Eric Firing         | efiring@soest.hawaii.edu 
+# ------------------------+--------------------+---------------------+---------------------------
+# LADCP                   | LDEO               | Andreas Thurnherr   | ant@ldeo.columbia.edu    
+# ------------------------+--------------------+---------------------+---------------------------
+# CFCs  SF6  N2O          | UW                 | Mark Warner         | warner@uw.edu
+# ------------------------+--------------------+---------------------+---------------------------
+# DOC  TDN                | UCSB               | Craig Carlson       | carlson@lifesci.ucsb.edu
+# ------------------------+--------------------+---------------------+---------------------------
+# C13 & C14               | WHOI  Princeton    | Ann McNichol        | amcnichol@whoi.edu
+#                         |                    | Robert Key          | key@princeton.edu        
+# ------------------------+--------------------+---------------------+---------------------------
+# Transmissometry         | TAMU               | Wilf Gardner        | wgardner@ocean.tamu.edu  
+# ------------------------+--------------------+---------------------+---------------------------
+# Fluorescence and        | U Maine            | Emmanuel Boss       | emmanuel.boss@maine.edu  
+# Backscatter (SOCCOM)    |                    |                     |                          
+# ------------------------+--------------------+---------------------+---------------------------
+# UVP                     | U Alaska Fairbanks | Andrew McDonnell    | amcdonnell@alaska.edu    
+# ------------------------+--------------------+---------------------+---------------------------
+# Nitrate Δ^15N and       | MPIC               | Gerald Haug         | gerald.haug@mpic.de
+# Δ^18N                   |                    | François Fripiat    | f.fripiat@mpic.de        
+# ------------------------+--------------------+---------------------+---------------------------
+# REE                     | Oxford             | Yves Plancherel     | yves.plancherel@earth.ox 
+#                         |                    |                     | .ac.uk                   
+# ------------------------+--------------------+---------------------+---------------------------
+# Noble Gases             | OSU  SIO           | Nicholas Beaird     | beairdn@oregonstate.edu
+#                         |                    | Fiamma Straneo      | fstraneo@ucsd.edu        
+# ------------------------+--------------------+---------------------+---------------------------
+# Neodymium               | Imperial College   | Tina van de Flierdt | tina.vandeflierdt@imperi 
+#                         | London             |                     | al.ac.uk                 
+# ------------------------+--------------------+---------------------+---------------------------
+# Argo Floats             | FSU  CSIRO         | Kevin Speer         | kspeer@fsu.edu 
+#                         |                    | Steve Rintoul       | steve.rintoul@csiro.au   
+# ------------------------+--------------------+---------------------+---------------------------
+# SOCCOM Floats           | UW  MBARI  UCSD    | Steve Riser         | riser@ocean.washington.edu
+#                         | SIO                | Ken Johnson         | johnson@mbari.org
+#                         |                    | Lynne Talley        | ltalley@ucsd.edu         
+# ------------------------+--------------------+---------------------+---------------------------
+# Surface Drifters        | NOAA  AOML         | Rick Lumpkin        | rick.lumpkin@noaa.gov
+#                         |                    | Shaun Dolk          | shaun.dolk@noaa.gov      
+# ------------------------+--------------------+---------------------+---------------------------
+# EM-APEX Floats          | UW APL             | James Girton        | girton@apl.washington.edu
+# ------------------------+--------------------+---------------------+---------------------------
+# Underway Bathymetry     | ASC                | ASC                 | admin@nbp.usap.gov
+# Meteorological Data     |                    |                     |                          
+# ------------------------+--------------------+---------------------+---------------------------
+#

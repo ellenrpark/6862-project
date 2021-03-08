@@ -1,0 +1,149 @@
+BOTTLE 20180921CCHSIOCBG
+# Merged parameters: CTDPRS  CTDTMP  CTDSAL  SALNTY  SALNTY_FLAG_W  CTDOXY  CTDOXY_FLAG_W
+# 20180103CCHSIOCBG
+# Merged parameters: PHSPHT  PHSPHT_FLAG_W  SILCAT  SILCAT_FLAG_W  NITRAT  NITRAT_FLAG_W  NITRIT  NITRIT_FLAG_W
+# Merged parameters: CFC-11  CFC-11_FLAG_W  CFC-12  CFC-12_FLAG_W  SF6  SF6_FLAG_W
+# Merged parameters: OXYGEN_FLAG_W
+# Merged parameters: ALKALI  ALKALI_FLAG_W  PH_SWS  PH_SWS_FLAG_W  PH_TMP
+# Merged parameters: TCARBN  TCARBN_FLAG_W
+# 20170505PRINUNIVRMK
+# processed by CCHDO on 2017-05-15  units for POC/PON edited to UG/KG
+# 20170807PRINUNIVRMK
+# 06/06/2016 Initialized README file  
+# Data source: S.Purkey 2/8/17 
+# SHIP: Ron Brown 
+# Cruise: P18; RB-16-06 
+# Region: SE Pacific on 110W and 103W 
+# EXPOCODE: 33RO20161119 
+# DATES:Leg 1: 20161119 - 20161223; San Diego to Easter Island 
+#       Leg 2: 20161230 - 20170203; Easter Island to Punta Arenas 
+# Chief Scientist: Brendan Carter; Annie Bourbonnais - Leg 1 
+#                Rolf Sonnerup; Sarah Purkey - Leg 2 
+# 212 stations with 24 place Rosette 
+# SOCCOM Biogeochemical floats deployed by  
+# Sta   WMO_ID  Lat       Lon       Date        UW# 
+# 128   5904844 -29.9815  -103.0012  20170104     9766 
+# 138   5904843 -34.9995  -102.9975  20170106     9659 
+# 146   5904685 -38.9988  -103.0015  20170108     9642 
+# 158   5904841 -44.9912  -102.9998  20170112    12382 
+# 170   5904842 -50.9990  -103.0005  20170115    12552 
+# 186   5904845 -58.9990  -102.9988  20170120     9750 
+# 202   5905075 -66.9960  -102.9992  20170124     8501 
+# Supported by NSF Award PLR-1425989 to J.L. Sarmiento et al.  
+# Extra stations executed near SOCCOM floats from earlier cruises for cliberation 
+# Station/Cast  Date      Lat       Lon    Expocode/Sect/Sta/Cast    UW#   WMO_ID 
+#    195/1      20170122 -63.5163 -102.9805  320620140320/P16S/17/2    9092  5904185 
+#    212/1      20170129 -68.0655  -95.0013  320620161224/HazMat/16/2 12559  5904855 
+# CTD: Who - G.Johnson; M.Barringer; Status - final 
+#       Includes: CTDSAL  CTDOXY  Optical
+# XMISS: Who - W.Gardner; Status - 
+#       Notes:  
+# FLBB: Who - E.Boss; Status - 
+#       Notes:  
+# Salinty: Who -  M.Barringer; Status -  
+#       Notes:   
+# Nutrients: Who - C.Mordy;J.-Z. Zhang; Status - final
+#       Includes: nitrate  nitrite   silicate  phopshpate
+# O2: Who - C.Langdon; Status - near final 
+#       Notes: revised data and flags rcd 3/16/17. Replaced 3/17/17 
+#       Some additional flag changes possible 
+# TCO2: Who - R.Feely & R.Wannikohf; Status - final 
+#       Notes: preliminary data from C.Featherstone via J.Bullister 3/7/17 
+#                final data from D.Greeley 8/2/17 
+# Alkalinity: Who - F.Millero; Status - final 
+#       Notes: data from R.Woosley via Kozyr 8/3/17 
+#       Additional QC by Key 
+# pH: Who - F.Millero; Status - final 
+#       Notes: data from R.Woosley via Kozyr 8/3/17 
+#       Additional QC by Key 
+#       NOTE: Data are on SWS 
+# pCO2: Who - R.Wannikohf; Status - 
+#       Notes: underway only 
+# CFC: Who - J.Bullister; Status - final 
+#       Notes: includes SF6 
+#       CCL4 measured  but not ready to report
+# C14/C13: Who - R.Key A.McNichol; Status - in transit to NOSAMS
+#       Notes: E.Druffel for DO14C and Black carbon 
+# H3/He3: Who - S.Doney; Status - collected 
+#       Notes:  
+# HPLC: Who - E.Boss; Status - submitted to NASA for analysis 
+#       Notes:  
+# POC/PON: Who - E.Boss; Status - final 
+#       Notes: collected by C.Kovach;  
+#       final data merged 20170505 and units converted to ug/kg 
+#       Approximate detection limits: 
+#               POC - 0.5microgram/L 
+#               PON - 3.4microgram/L 
+# TDN/DOC: Who - D.Hansell; Status - collected 
+#       Notes:  
+# Nitrogen isomers: Who - D.Sigman; Status - collected 
+#       Notes:  
+# REE: Who - ?; Status - collected 
+#       Notes:  
+# References that have used data from this cruise: 
+#
+# Programs and Principal Investigators (PIs)
+# 
+# Program              PI                 Inst.    E-mail
+# -------------------  -----------------  -------  --------------------------
+# CTD                  Greg Johnson       PMEL     gregory.c.johnson@noaa.gov
+#                      Molly Baringer     AOML     Molly.Baringer@noaa.gov
+# Salinity             Molly Baringer     AOML     Molly.Baringer@noaa.gov
+# LADCP                Andreas Thurnherr  LDEO     ant@ldeo.columbia.edu
+# Dissolved O2         Chris Langdon      RSMAS    clangdon@rsmas.miami.edu
+# Nutrients            Calvin Mordy       PMEL     Calvin.W.Mordy@noaa.gov
+#                      Jia-Zhong Zhang    AOML     Jia-Zhong.Zhang@noaa.gov
+# CFCs/SF6/N2O by ECD  John Bullister     PMEL     John.L.Bullister@noaa.gov
+# Total CO2 (DIC)      Richard Feely      PMEL     richard.a.feely@noaa.gov
+#                      Rik Wannikhof      AOML     Rik.Wanninkhof@noaa.gov
+# Total Alkalinity/pH  Frank Millero      RSMAS    fmillero@rsmas.miami.edu
+# DI14C                Ann McNichol       WHOI     amcnichol@whoi.edu
+#                      Robert Key         PU       key@princeton.edu
+# DO14C                Ellen Druffel      UCI      edruffel@uci.edu
+# Dissolved Organics   Brett Walker       UCI      Brett.walker@uci.edu
+# DOC and TDN          Dennis Hansell     RSMAS    dhansell@rsmas.miami.edu
+# Helium/Tritium       Scott Doney        WHOI     sdoney@whoi.edu 
+#   (3He-3H)           William Jenkins    WHOI     wjenkins@whoi.edu
+# Stable Gases  O2     Annie Bourbonnais  WHOI     abourbonnais@whoi.edu
+#   N2  Ar  
+# Floats               Greg Johnson       PMEL     Gregory.C.Johnson@noaa.gov
+#                      Lynne Talley       SIO      ltalley@ucsd.edu
+#                      Craig McNeil       UW       cmcneil@apl.washington.edu
+#                      Steve Emerson      UW       emerson@u.washington.edu
+#                      Giorgio Dall'Olmo  PML      gdal@pml.ac.uk
+# Drifters             Shaun Dolk         AOML     shaun.dolk@noaa.gov
+# HPLC                 Emmanuel Boss      UMe      emmanuel.boss@maine.edu
+# Transmissometry      Wilf Gardner       TAMU     wgardner@ocean.tamu.edu
+# Fluor./backscatter   Emmanuel Boss      UMe      emmanuel.boss@maine.edu
+# Chipods              Jonathan Nash      OSU      nash.coas@gmail.com
+# Net tows*            Laura Sanchez      CICIMAR  lsvelasc@gmail.com
+#                        Velasco
+# Bathymetry           Ship personnel     NOAA     ops.ronald.brown@noaa.gov
+# Underway TSG         Ship personnel     NOAA     ops.ronald.brown@noaa.gov
+# Underway pCO2        Rik Wanninkhof     AOML     Rik.Wanninkhof@noaa.gov
+# Genetics             Adam Martiny       UCI      amartiny@uci.edu
+# iTag Genetics        Eric Allen         SIO      eallen@ucsd.edu
+#                      Bethany Kolody     SIO      bck243@gmail.com
+# Nitrate/nitrite      Daniel Sigman      PU       sigman@princeton.edu
+#   isotopes
+#                      François Fripiat   MPIC     f.fripiat@mpic.de
+#                      Annie Bourbonnais  WHOI     abourbonnais@whoi.edu
+# N2O isotopomers      Annie Bourbonnais  WHOI     abourbonnais@whoi.edu
+# Radiometry/          Michael Ondrusek   NESDIS   Michael.Ondrusek@noaa.gov
+#   Chlorophyll
+# H2O isotopes         Kim Cobb           GIT      kim.cobb@eas.gatech.edu
+# DO14C by Pyrolysis   Lihini Aluwihare   SIO      laluwihare@ucsd.edu
+# Microplastics        Shaowu Bao         CCCU     sbao@coastal.edu
+# ___________________________________________________________________________
+# * Program cancelled after the first cast
+#
+# Data Citation
+# -------------
+# Following American Geophysical Union recommendations  the data should be
+# cited as: "data provider(s)  cruise name or cruise ID  data file name(s)
+# CLIVAR and Carbon Hydrographic Data Office  La Jolla  CA  USA  and data
+# file date." For further information  please contact one of the parties
+# listed above or cchdo@ucsd.edu. Users are also requested to acknowledge
+# the NSF/NOAA-funded U.S. Repeat Hydrography Program in publications resulting
+# from their use.
+#

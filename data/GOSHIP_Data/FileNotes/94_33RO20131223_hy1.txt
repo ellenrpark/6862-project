@@ -1,0 +1,90 @@
+BOTTLE 20200109CCHSIOCBG
+# Merged parameters: DELC13  DELC13_FLAG_W  DELC14  DELC14_FLAG_W  C14ERR
+# 20150327CCHSIORJL
+# Merged parameters: OXYGEN_FLAG_W  TCARBN  TCARBN_FLAG_W  PCO2  PCO2_FLAG_W  PCO2TMP  BTLNBR_FLAG_W  CTDPRS
+# 20150127CCHSIOCBG
+# Merged parameters: PH_SWS  PH_SWS_FLAG_W  PH_TMP  ALKALI_FLAG_W
+# 20141218CCHSIOCBG
+# Merged parameters: PHSPHT  SILCAT  NITRAT  NITRIT  PHSPHT_FLAG_W  NITRIT_FLAG_W  DOC  DOC_FLAG_W  TDN  TDN_FLAG_W  CFC-11  CFC-11_FLAG_W  CFC-12  CFC-12_FLAG_W  SF6  SF6_FLAG_W  N2O  N2O_FLAG_W  CCL4  CCL4_FLAG_W  PH_SWS  PH_SWS_FLAG_W  ALKALI  ALKALI_FLAG_W
+# 20141014CCHSIOCBG
+# Merged parameters: BTLNBR_FLAG_W  SALNTY_FLAG_W  CTDOXY_FLAG_W
+# 20140617SIOCCHRJL
+# Added citation instructions for data use
+# BOTTLE 20140604CCHSIOCBG
+# Merged parameters: CTDRAW  CTDPRS  CTDTMP  CTDSAL  SALNTY  CTDOXY_FLAG_W  SALNTY_FLAG_W
+# 20140202noaa
+#
+# BOTTLE 20181218PRINUNIVRMK
+# 10/16/14 Initialized README file  
+# Data source: CCHDO 10/16/14; 4/1/15 
+# SHIP: Ronald H. Brown 
+# Cruise: A16S 
+# Region: SW Atlantic 
+# EXPOCODE: 33RO20131223 
+# DATES: 12/23/2013 - 2/5/2014 
+# Chief Scientist: R. Wanninkhof  L. Barbero 
+# 113 stations with 24 place Rosette 
+# Hydro: Who - M.Barringer;G.Johnson; Status - final 
+#       Notes:   
+# Nutrients: Who - C.MOrdy J-Z. Zhang; Status - final 
+#       Notes: includes N2O 
+# O2: Who - C. Langdon; Status - final 
+#       Notes: 
+# TCO2: Who - R.Wanninkhof  R.Feely; Status - final 
+#       Notes:  
+# TA: Who - F.Millero; Status - final 
+#       Notes:  
+# pH: Who - F.Millero; Status - final 
+#       Notes: Seawater scale at 25C 
+# CFC: Who - J.Bullister; Status - shipboard only 
+#       Notes: includes SF6 
+# C14: Who - R.Key A.McNichols; Status - final* 
+#       Notes: Includes C13 all stations 
+# H3/He3: Who - P.Schlosser;W.Jenkins; Status - being processed 
+#       Notes:  
+# DOC: Who - D.Hansell; Status - final 
+#       Notes: data from CCHDO  Nov 10  2014 
+# Other: CDIM - C.Carlson; ADCP - E.Firing 
+# References that have used data from this cruise: 
+#
+#|
+#|
+#| Analysis                  Institution    Principal Investigator   email
+#| ____________________________________________________________________________________
+#| Chief Scientist           AOML           Rik Wanninkhof           rik.wanninkhof@noaa.gov
+#| Co-Chief Scientist        AOML/CIMAS     Leticia Barbero          leticia.barbero@noaa.gov
+#| CTDO                      NOAA/PMEL      Gregory Johnson          Gregory.C.Johnson@noaa.gov
+#|                           NOAA/AOML      Molly Baringer           Molly.Baringer@noaa.gov
+#| Salinity                  NOAA/AOML      Molly Baringer           Molly.Baringer@noaa.gov
+#| UW & Discrete pCO2        NOAA/AOML      Rik Wanninkhof           Rik.Wanninkhof@noaa.gov
+#| Total CO2 (DIC)           NOAA/PMEL      Richard Feely            Richard.A.Feely@noaa.gov
+#|                           NOAA/AOML      Rik Wanninkhof           Rik.Wanninkhof@noaa.gov
+#| Nutrients                 NOAA/AOML      Jia-Zhong Zhang          Jia-Zhong.Zhang@noaa.gov
+#|                           NOAA/PMEL      Calvin Mordy             Calvin.W.Mordy@noaa.gov
+#| Dissolved O2              NOAA/AOML      Molly Baringer           Molly.Baringer@noaa.gov
+#|                           RSMAS          Chris Langdon            clangdon@rsmas.miami.edu 
+#| Total Alkalinity/pH       RSMAS          Frank Millero            fmillero@rsmas.miami.edu
+#| CFCs/SF6                  NOAA/PMEL      John Bullister           John.L.Bullister@noaa.gov
+#| 3He/Tritium               LDEO           Peter Schlosser          peters@ldeo.columbia.edu
+#|                           WHOI           William Jenkins          wjenkins@whoi.edu
+#| CDOM                      UCSB/MSI       Craig Carlson            carlson@lifesci.ucsb.edu
+#| Chipod                    OSU            Jonathan Nash            nash@coas.oregonstate.edu
+#| ADCP/Lowered ADCP         U Hawaii       Eric Firing              efiring@hawaii.edu
+#| Trace Metals              FSU            William Landing          wlanding@fsu.edu
+#|                           UH             Chris Measures           measures@hawaii.edu 
+#| 14C/DIC                   WHOI           Ann McNichols            amcnichol@whoi.edu
+#|                           PU             Robert Key               401 Sayre Hall
+#|                                                                   Princeton University
+#|                                                                   08544 Princeton   NJ
+#| DOC                       RSMAS          Dennis Hansell           dhansell@rsmas.miami.edu
+#| Data Management           SIO            James Swift              jswift@ucsd.edu
+#|                           SIO            Susan Becker             sbecker@ucsd.edu
+#|
+#|  Following American Geophysical Union recommendations  the data should be
+#|  cited as: "data provider(s)  cruise name or cruise ID  data file name(s) 
+#|  CLIVAR and Carbon Hydrographic Data Office  La Jolla  CA  USA  and data
+#|  file date." For further information  please contact one of the parties
+#|  listed above or cchdo@ucsd.edu. Users are also requested to acknowledge
+#|  the NSF/NOAA-funded U.S. Repeat Hydrography Program in publications resulting
+#|  from their use.
+#|

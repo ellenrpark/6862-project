@@ -1,0 +1,27 @@
+BOTTLE 20111212CCHDOSIOCBG
+#code : Justin Fields merge_exchange.rb 
+#original files copied from HTML directory: 2011-12-12
+#original HYD file: /data/co2clivar/pacific/p15s/p15s_09SS20090203/original/20111010_carbon_cberys/processing/orig_hy1.csv  2011-12-12
+#merged: BOTTLE 20111006PRINUNIVRMK
+#   10/05/11 Initialized README file  
+#   Data source: CCHDO (8/25/11) and Tilbrook carbon via CDIAC (10/4/11) 
+#BOTTLE 20111003CCHDOSIOCBG
+#code : Justin Fields merge_exchange.rb
+#original files copied from HTML directory: 2011-10-03
+#original HYD file: /data/co2clivar/pacific/p15s/p15s_09SS20090203/original/20111003_CFC_cberys/original_hy1.csv  2011-10-03
+#BOTTLE 20091201CMRCSIRORLC
+#Ship: RV Southern Surveyor
+#Cruise: 09SS20090203; P15; alias ss200901
+#EXPOCODE = 09SS20090203
+#SECT_ID = P15
+#Dates: 2/2/2009-24/3/2009
+#Chief Scientist: B.Sloyan and S.Wijffels
+# 128 stations with 24 place Rosette 
+# Hydro: Who - R.Cowley; Status - final  
+# Nuts/O2: Who - R.Cowley; Status - final  
+# TCO2: Who - B. Tilbrook; Status - Final  
+#      Notes: Precision & accuracy estimated at 1umol/kg 
+# TA: Who - B. Tilbrook; Status - Final 
+#      Notes: Precision & accuracy estimated at 2umol/kg 
+# CFC: Who - J. Bullister; Status - Final  
+#      Notes:  SIO98 calibration scale 

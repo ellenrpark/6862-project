@@ -1,0 +1,69 @@
+BOTTLE 20171030CCHSIOCBG
+# TIME at station 1  cast 1 from 0660 to 0659 
+#BOTTLE 20170818PRINUNIVRMK
+# 05/02/2016 Initialized README file  
+# Data source: B.Sloyan 20170119 
+# SHIP: R/V Investiagtor 
+# Cruise: P15S; IN2016_V03 
+# Region: SW Pacific 
+# EXPOCODE: 096U20160426 
+# DATES: 20160426 - 20160630 
+# Chief Scientist: Bernadette Sloyan 
+# 136 stations with 36 place Rosette 
+# SOCCOM Biogeochemical floats deployed by Catriona Johnson 
+# Sta   WMO_ID	Lat       Lon       Date       U.W.ID	 
+#  2   5904768  -66.3417 -170.0002  20160504     0570 
+#  3   5904767  -65.6640 -170.0658  20160505     0568 
+#  6   5904672  -64.0367 -170.1683  20160506     0565 
+# 11   5904764  -61.9217 -169.9067  20160508     9761 
+# 15   5904673  -60.0250 -170.0717  20160511     0571 
+# 19   5904695  -57.9800 -169.9483  20160513     9265 
+# 25   5904766  -57.1000 -169.9517  20160515     0566 
+# 31   5904761  -51.9250 -169.9117  20160517     9660 
+# 35   5904763  -49.9633 -169.7833  20160518     9632 
+# 39   5904693  -47.9967 -169.9733  20160519     9634 
+# 43   5904765  -46.6667 -171.5283  20160521     9762 
+# 57   5904674  -39.9633 -172.5683  20160530     9630 
+# 61   5904694  -38.1200 -171.4500  20160531     9752 
+# Supported by NSF Award PLR-1425989 to J.L. Sarmiento et al.  
+# Hydro: Who - B.Sloyan; Status - final 
+# 	Notes: Bottles above 450m at Sta 3 fired "on the fly" due to weather 
+# CTD: Who - B.Sloyan; Status - mixed 
+# 	Includes: CTDSAL  CTDOXY 
+# 	CTD calibration not finished 
+# Nutrients: Who - ; Status - 
+# 	Notes: NITRAT calculated from (NO3+NO2) - NO2. 
+#                NO3+NO2 flags assigned to NITRAT 
+# O2: Who - B.Sloyan; Status - final 
+# 	Notes: 
+# TCO2: Who - Bronte Tilbrook; Status - final 
+# 	Notes:  
+# TA: Who - Bronte Tilbrook; Status - final 
+# 	Notes: additional shore based analyses by Dickson   
+# 		but not included in final file. 
+# pH: Who - Andrew Dickson; Status - final 
+# 	Notes: samples run ashore 
+# 	Total H+ scale at 25C 
+# pCO2: Who - Bronte Tilbrook; Status - final 
+# 	Notes: underway only  with oxygen 
+# CFC: Who - M.Warner;J.Bullister; Status - final 
+# 	Notes: with SF6 
+# 	Final values from J.Bullister 5/5/17 
+# C14: Who - R.Key;A.McNichol; Status - awaiting analysis 
+# 	Notes: ~650 samples in storage 
+# 3H/3He: Who - S.Downes/J.Lupton; Status - unknown 
+# 	Notes:  
+# HPLC: Who - E.Boss; Status -final 
+# 	Notes: not merged into this file 
+# POC/PON: Who - E.Boss; Status -final 
+# 	Notes: Co0nverted to ug/kg using measured density 
+# 	Std.Dev. of POC replicates 2.5ug/kg 
+# 	Std.Dev. of PON replicates 0.7ug/kg 
+# 	Updated8/18/17 via file "SOCCOM_P15S_POC.csv" provided by  
+# 		Nils Haentjens 6/19/17 
+# ChloroA/Phaeo: Who - E.Reas; Status - final/preliminary 
+# 	Notes: via Turner Trilogy Fluorometer 
+# 	Min. Det. Level 0.025ug/L for ChlA extracted  acidification 
+# 	Min. Det. Level 0.025ug/L for ChlA extracted  non-acidification 
+# These data should be cited as: 
+# References that have used data from this cruise: 

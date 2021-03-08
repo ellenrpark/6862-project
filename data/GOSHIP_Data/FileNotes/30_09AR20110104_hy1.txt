@@ -1,0 +1,21 @@
+BOTTLE 20140213SIOCCHRJL
+# NO3+NO2 changed to NO2+NO3
+# BOTTLE 20131017PRINUNIVRMK
+# 10/17/2013 Initialized README file  
+# Data source: CCHDO sum and sea files 10/16/13 
+# SHIP: Aurora Australis 
+# Cruise: AU1121 
+# Region: SR03 and Adelie Land region 
+# EXPOCODE: 09AR20110104 
+# DATES: 1/4 - 2/6/2011 
+# Chief Scientist: S.Rintoul 
+# 149 stations with 24 place Rosette 
+# Additional QC by R.Key 
+# Hydro: Who - S.Rintoul; Status - final 
+# 	Notes: 	See Rosenberg and Rintoul cruise report for issues  etc. 
+# Nuts: Who - ; Status - final 
+# 	Notes:  
+# O2: Who - ; Status - final 
+# 	Notes: 
+# References: 
+# Rosenberg  M.  and S. Rintoul  Aurora Australis Marine Science Cruise AU1121 - Oceanographic Field Measurements and Analysis  Sep. 2011; http://cchdo.ucsd.edu/cruise/09AR20110104 

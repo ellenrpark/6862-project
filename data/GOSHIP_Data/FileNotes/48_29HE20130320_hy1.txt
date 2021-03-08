@@ -1,0 +1,21 @@
+BOTTLE 20131114PRINUNIVRMK
+# 11/12/13 Initialized README file 					 
+# Data source: A.Rios  revised 11/14/2013				 
+# SHIP: HESPERIDES					 
+# Cruise: FICARAM_XV					 
+# Region: Atlantic Ocean; A17 extended north to Gibralter 
+# EXPOCODE: 29HE20130320					 
+# DATES: 3/20 - 5/22/2013 					 
+# Chief Scientist: A.F. Rios					 
+# 108 stations with 24 place Rosette 
+# Hydro: Who - Fiz F. Perez/Jose Luis Pelegri; Status - final 
+# 	Notes:	CTDSAL only			 
+# Nuts: Mercedes de la Paz/ Fernando Alonso/Elena Royo; Status - final	 
+# 	Notes: 				 
+# O2: Who - Anton Velo/Maribel Garcia-Ibañez; Status - final			 
+# 	Notes: 				 
+# TA: Who - Fiz F. Perez/A. Velo/Maribel Garcia-Ibañez  ; Status - final		 
+# 	Notes: 				 
+# pH: Who - Fiz F. Perez/Xose A. Padin/Maribel Garcia-Ibañez; Status - final 
+# 	Notes: SWS @ 25C						 
+# References:					 

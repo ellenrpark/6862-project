@@ -1,0 +1,38 @@
+BOTTLE 201300819PRINUNIVRMK
+# 3/18/2013 Initialized README file  
+# Data source: final data from S.van Heuven 3/15/2013; CFC from Huhn 3/27/13 
+# SHIP: Polarstern 
+# Cruise: ANT-XXIV_3; CASO; GEOTRACES-NL 
+# Region: A21/A12; Cape Town to Punta Arenas 
+# EXPOCODE: 06AQ20080210 
+# DATES: 2/10-4/16/2008 
+# Chief Scientist: E.Fahrbach;H.de Baar 
+# 129 stations with (two different) 24 place Rosettes 
+# All QC by data generators 
+# Hydro: Who - E.Fahrbach ; Status - final 
+# 	Notes: 	CTDSAL only 
+# Nuts: Who - J.van Ooijen; Status - final 
+# 	Notes:  
+# O2: Who I.Núñez-Riboni; Status - final 
+# 	Notes: CTDOxy only 
+# TCO2: Who - S.van Heuven; H.de Baar; Status - final 
+# 	Notes: See van Heuven et al. 2011 and Neven et al. 2011 
+# TA: Who - S.van Heuven; H.de Baar; Status - final 
+# 	Notes:  
+# pCO2 Who - S.van Heuven; H.de Baar; Status - final 
+# 	Notes: underway only  will become available as part of SOCATv2 
+# CFC11-12: Who - O.Huhn;M.Rhein; Status - final 
+# 	Notes: See Huhn et al. 2013 
+# He3: Who M.Rhein/O.Huhn; Status - final 
+# 	Notes: includes neon 
+# 	Uncertainty for each measurement approximated using average measurment  
+# 		uncertainly listed in report for these measurements: 
+# 	He +/- < 1% 
+# 	Neon +/- < 1% 
+# 	He3 +/- < 0.05% 
+# Other: trace metals and organics. See version of cruise data file at BODC (GEOTRACES data office) 
+# References: 
+# CO2 / O2: van Heuven  Steven M. A. C.  M. Hoppema  O. Huhn  H.A.Slagter  H.de Baar  Direct observation of increasing CO2 in the Weddell Gyre along the Prime Meridian during 1973-2008  D.S.R. II 58(25)  2613-2635  doi:10.1016/j.dsr2.2011.08.007  2011. 
+# CO2: Neven  I.A.  J.Stefels  S. van Heuven  H.de Baar  J.T.M. Elzenga  High plasticity in inorganic carbon uptake by Southern Ocean phytoplankton in response to ambient CO2  58(25)  2636-2646  doi:10.1016/j.dsr2.2011.03.006  2011. 
+# CFCs: Huhn  O.  M. Rhein  M. Hoppema  and S. van Heuven (2013)  Decline of deep and bottom water ventilation and slowing down of anthropogenic carbon storage in the Weddell Sea  1984-2011  Deep-Sea Res I. (in press)  doi:10.1016/j.dsr.2013.01.005. 
+# Physics: Hellmer  Hartmut H; Huhn  Oliver; Gomis  Damià; Timmermann  Ralph (2011): On the freshening of the northwestern Weddell Sea continental shelf. Ocean Science  7(3)  305-316  doi:10.5194/os-7-305-2011	 

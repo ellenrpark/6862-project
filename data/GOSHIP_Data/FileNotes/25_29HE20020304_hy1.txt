@@ -1,0 +1,23 @@
+BOTTLE 20090511PRINUNIVRMK
+# 9/26/07 this file initialized 
+# Data from Rios 9/5/07 and 9/12/07 
+# Ship: Hesperides 
+# Cruise: HE081; FICARAM IV 
+# Dates: 3/4-4/9/2002 
+# EXPOCODE 29HE20020304 
+# Region:Southwest Atlantic along A17 line 
+# Chief Scientist: F.Perez 
+# 19 full depth stations with 24 place Rosette 
+# Hydro: Who - ; Status - final  
+# 	Notes: Bottom depths estimated from global topography 
+# Nuts/O2: Who - C. Castro; Status - final 
+# 	Notes:The analytical error was  
+# 		0.05 umole/kg for nitrate  
+# 		0.05 umole/kg for silicic acid and  
+# 		0.01 umole/kg for phosphate. 
+# TA: Who - A. Rios; Status - final 
+# 	Notes: CRM batch 54  uncertainty of 0.7umol/kg 
+# pH: Who - A. Rios; Status - final   
+# 	Notes: Converted to SWS@25C. Originally reported as pHTot@25 
+# 	spectrophotometrically following Clayton and Byrne (1993) 
+# 	CRM batch 54  uncertainty of 0.002 

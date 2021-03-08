@@ -1,0 +1,33 @@
+BOTTLE 20131213PRINUNIVRMK
+# 12/15/11 Initialized README file  
+# Data source: Libby Jones  3/28/13 
+# SHIP: Polarstern 
+# Cruise: ANT XXVII/2 
+# Region: far South Atlantic; Capetown to Punta Arenas; A12 
+# EXPOCODE: 06AQ20101128 
+# DATES: 11/28/2010-2/5/2011 
+# Chief Scientist: E.Fahrbach 
+# 85 stations with 24 place Rosette 
+# Hydro: Who - G.Rohardt; Status -  final 
+# 	Notes: CTDSAL only 
+# Nuts: Who - H.de Baar; M. Hoppema; Status -  final 
+# 	Notes: see cruise report for replicate precision 
+# 	JRM Kanso reference material used 
+# O2: Who - A.Kortzinger; Status - final 
+# 	Notes: CTDOXY only 
+# 	converted from umol/l to umol/kg with constant value of 1.028 
+# TCO2: Who - L.Jones;M.Hoppema; Status - final 
+# 	Notes:  
+# TA: Who - L.Jones;M.Hoppema; Status - final 
+# 	Notes:  
+# CFC: Who - M.Rhein;O.Huhn; Status - unknown 
+# 	Notes: includes SF6 and CFC-12  but no CFC-11 
+# 	no data in file 
+# C14: Who - R.Key/A.Mcnichol; Status - NYA   
+# 	Notes:  measurements not yet completed 
+# H3/He3: Who - ??; Status - unknown 
+# 	Notes: collected 
+# 	no data in file 
+# O-18: Who - E.Fahrbach;O.Huhn; Status - unknown 
+# 	Notes: no data in file 
+# References: 

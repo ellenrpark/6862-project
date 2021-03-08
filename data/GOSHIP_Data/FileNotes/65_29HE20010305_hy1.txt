@@ -1,0 +1,23 @@
+BOTTLE 20090511PRINUNIVRMK
+# 9/26/07 this file initialized 
+# Data from Rios 9/6/07 
+# Cruise dates:3/5-4/17/2001 
+# Chief Scientist:A. Rios 
+# Ship and cruise designation:Hesperides HE073; FICARAM II 
+# EXPOCODEL 29HE20010305 
+# Region:Western South Atlantic; A17 repeat 
+# 29 full depth stations;  with 24 place Rosette 
+# Hydro: Who - ; Status - final 
+# 	Notes: 	Bottom depth estimated from global topography 
+# Nuts/O2: Who - C. Castro; Status - final 
+# 	Notes:  
+# TA: Who - A. Rios; Status - final 
+# 	Notes: potentiometric titrations with hydrochloric acid to a  
+# 		final pH of 4.40 (Pérez and Fraga  1987). The electrodes were 
+# 		standardized using a buffer of pH 4.42 made in CO2 free  
+# 		seawater (Pérez et al.  2002). 
+# 	CRM batch 41 & 51  uncertainty of 1.4umol/kg 
+# pH: Who -  A. Rios; Status - final   
+# 	Notes: converted to SWS@25C. Originally eported on total H scale at 25C 
+# 	spectrophotometric following Clayton and Byrne (1993) 
+# 	CRM batch 41 & 51  uncertainty of 0.002 

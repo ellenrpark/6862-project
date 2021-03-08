@@ -1,0 +1,61 @@
+BOTTLE 20140127SIOCCHRJL
+# Changed CTDSAL and CTDOXY empty value flag 0 to flag 9
+# Changed ALKALI flag -999 to flag 9
+# BOTTLE 20130308PRINUNIVRMK
+# 1/20/12 Initialized README file  
+# Data source: Melchor Gonzalez-Davila via Mario Hoppema; S. Speich;D.Willey 
+# SHIP: Marion Dufresne 
+# Cruise: BONUS GoodHope 2008 (leg 1); MD166 
+# Region: far SE Atlantic  Capetown over to prime meridian then south; A12 
+# DATES: 2/7-3/24/2008 
+# EXPOCODE: 35MF20080207 
+# Chief Scientist: S. Speich  M. Boye  F. Dehairs 
+# 110 stations with 24 place Rosette 
+# Hydro: Who - S.Speich M. Arhan; Status - final 
+# 	Notes: 	CTDSAL and salinity may in fact be different expressions of 
+# 		same data 
+# Nuts: Who - M.Boye F.Le Moigne; Status - final 
+# 	Notes: rcd Feb. 26  2013 
+# 	Includes NH4 
+# 	Nitrate is really NO3+NO2 
+# 	Values converted from uM to um/kg with assumed  
+# 		constant density of 1.027 
+# O2: Who - S.Speich; Status - final 
+# 	Notes: CTDOXY and oxygen may in fact be different expressions of 
+# 		same data 
+# TCO2: Who - B. Dalille; Status -  final 
+# 	Notes:  
+# TA: Who - M.Gonzales-Davila; Status -  final 
+# 	Notes:  
+# pH: Who - M.Gonzales-Davila; Status -  final 
+# 	Notes: Total scale at 25C  spec 
+# CFC: Who - R.Fine/D.Willey; Status -final 
+# 	Notes:    
+# C14: Who - N. Tisnerat; Status - measured 
+# 	Notes: proprietary 
+# Other: Who -  ; Status -     
+# 	Notes:  
+# References: 
+# Arhan  M.  S. Speich  C. Messager  G. Dencausse  R. Fine  and M. Boye  2011: Anticyclonic and cyclonic eddies of subtropical origin in the subantarctic zone south of Africa. J. Geophys. Res.  in press. 
+# Bown J.  Boye M.  Baker A.  Duvieilbourg E.  Lacan F.  Le Moigne F.  Planchon F.  Speich S.  Nelson D.M. 2011. The biogeochemical cycle of dissolved cobalt in the Atlantic and the Southern Ocean south off the coast of South Africa. Marine Chemistry  doi:10.1016/j.marchem.2011.03.008. 
+# Bown  J.  M. Boye  and D. M. Nelson  New insights on the role of organic speciation in the biogeochemical cycle of dissolved cobalt in the southeastern Atlantic and the Southern Ocean. Biogeosciences  9  2719-2736  2012 
+# Boye  M.  B. D. Wake  P. Lopez Garcia  J. Bown  A. R. Baker  and E. P. Achterberg  Distributions of dissolved trace metals (Cd  Cu  Mn  Pb  Ag) in the southeastern Atlantic and the Southern Ocean. Biogeosciences  9  3231-3246  2012 
+# Chever  F.  E. Bucciarelli  G. Sarthou  S. Speich  M. Arhan  P. Penven  and A. Tagliabue (2010)  Physical speciation of iron in the Atlantic sector of the Southern Ocean along a transect from the subtropical domain to the Weddell Sea Gyre  J. Geophys. Res.  115  C10059  doi:10.1029/2009JC005880. 
+# Faure  V.  M. Arhan  S. Speich  and S. Gladyshev  2011 : Heat budget of the surface mixed layer south of Africa. Ocean Dyn.  doi: 10.1007/s10236-011-0444-1. 
+# Fripiat  F.  A.-J. Cavagna  F. Dehairs  S. Speich  L. André  and  D. Cardinal  2011 : Silicon pool dynamics and biogenic silica export in the Antarctic Circumpolar Current inferred from Si-isotopes. Ocean Sci.  7  533–547  2011  www.ocean-sci.net/7/533/2011/doi:10.5194/os-7-533-2011. 
+# Fripiat  F.  A.-J. Cavagna  F. Dehairs  A. de Brauwere  L. André  and D. Cardinal  Processes controlling the Si-isotopic composition in the Southern Ocean and application for paleoceanography. Biogeosciences  9  2443-2457  2012 
+# González-Dávila  M.  Santana-Casiano  J. M.  Fine  R. A.  Happell  J.  Delille  B.  and Speich  S.: Carbonate system in the water masses of the Southeast Atlantic sector of the Southern Ocean during February and March 2008  Biogeosciences  8  1401-1413  doi:10.5194/bg-8-1401-2011  2011. 
+# Hoppema  M.  Dehairs  F.  Navez  J.  Monnin  C.  Jeandel  C.  Fahrbach  E.  De Baar  H. J. W.(2010). Distribution of barium in the Weddell Gyre: Impact of circulation and biogeochemical processes  Marine Chemistry 122  118-129. doi:10.1016/j.marchem.2010.07.005 
+# Jeandel C.  Pradoux C.  Venchiarutti C.  Lacan F.   Bourquin M.  Riotte J. Extracting the Ra/Ba  REE  Th  Pa and U from the same sample by using a unique chromatographic column.  In press Geostandards and Geoanalytical Research  2010 
+# Joubert  W. R.  S. J. Thomalla  H. N. Waldron  M. I. Lucas  M. Boye  F. A. C. Le Moigne  F. Planchon  and S. Speich. Nitrogen uptake by phytoplankton in the Atlantic sector of the Southern Ocean during late austral summer. Biogeosciences  8  2947-2959  2011  www.biogeosciences.net/8/2947/2011/doi:10.5194/bg-8-2947-2011 
+# Lacan  F.  A. Radic  C. Jeandel  F. Poitrasson  G. Sarthou  C. Pradoux  and R. Freydier. 2008. Measurement of the isotopic composition of dissolved iron in the open ocean  Geophys. Res. Lett.  35  L24610  doi:10.1029/2008GL035841 
+# Lacan  F.  Radic  A.  Jeandel  C.  Freydier  R.  Poitrasson  F.  Sarthou  G.  2008  Measurement of the isotopic composition of dissolved Fe in seawater  Geochim. Cosmochim. Acta  72 (12)  A425-A425. 
+# Lacan  F.  Radic  A.  Labatut  M.  Jeandel  C.  Poitrasson  F.  Sarthou  G.  Pradoux  C.  Chmeleff  J. and Freydier  R.: High-Precision Determination of the Isotopic Composition of Dissolved Iron in Iron Depleted Seawater by Double Spike Multicollector-ICPMS  Analytical Chemistry  82(17)  7103-7111  doi:10.1021/ac1002504  2010. 
+# Le Moigne  F.A.C.  M. Boye  A.Masson  R. Corvaisier  E. Grossteffan  A. Gueneugues and P. Pondaven  Description of the biogeochemical features of the bubrtopical southeastern Atlantic and the Southern Ocean south of South Africa during the austral summer of the International Polar Year  Biogeosci  10  1-15  doi:10.5194/bg-10-1-2013  2013. 
+# Messager  C.  S. Speich  and E. Key  2012 : Marine atmospheric boundary layer over some Southern Ocean fronts during the IPY BGH 2008 cruise  Ocean Sci.  8  1001-1023  2012. 
+# Rimaud  J.  S. Speich  B. Blanke  and N. Grima  2012 : The exchange of Intermediate Water in the southeast Atlantic: Water mass transformations diagnosed from the Lagrangian analysis of a regional ocean model  J. Geophys. Res.  117  C08034  doi:10.1029/2012JC008059. 
+# Rusciano  E.  S. Speich and M. Ollitrault  2012 : Antarctic Intermediate Water dynamics  budget and fluxes. Interocean exchanges South of Africa. J. Geophys. Res. doi:10.1029/2012JC008266  in press. 
+# Sarthou  G.  E. Bucciarelli  F. Chever  S. P. Hansard  M. Gonzalez-Davila  J. M. Santana-Casiano  F. Planchon  and S. Speich  2011 : Labile Fe(II) concentrations in the Atlantic sector of the Southern Ocean along a transect from the subtropical domain to the Weddell Sea Gyre. Biogeosciences  8  2461–2479  2011  
+# www.biogeosciences.net/8/2461/2011/doi:10.5194/bg-8-2461-2011 
+# Speich  S.  M. Arhan  E. Rusciano  V. Faure  M. Ollitrault  A. Prigent  S. Swart  2012 : Use of ARGO floats to study the ocean dynamics south of Africa : What we have learned from the GoodHope project and what we plan within the SAMOC International Programme. Mercator Ocean—Coriolis Quarterly Newsletter - Special Issue  45  21-27. 
+# Tagliabue  A.  Bopp  L.  Dutay  J.-C.  Bowie  A.  Chever  F.  Baptiste  P.-J.  Bucciarelli  E.  Lannuzel  D.  Remenyi  T.  Sarthou  G.  Aumont  O.  Gehlen  M.  Jeandel  C.  2010  On the importance of hydrothermalism to the oceanic dissolved iron inventory. Nature Geosciences  DOI: 10.1038/NGEO818. 

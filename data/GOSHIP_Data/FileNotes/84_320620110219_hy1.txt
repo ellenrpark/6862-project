@@ -1,0 +1,90 @@
+BOTTLE 20170607CCHSIOCBG
+# Merged parameters: TRITUM  TRITER  TRITUM_FLAG_W  PH_TOT  PH_TMP
+# Merged parameters: HELIUM  HELIER  HELIUM_FLAG_W  DELHE3  DELHER  DELHE3_FLAG_W  NEON  NEONER  NEON_FLAG_W  LDEO_SAMPNO
+# Merged parameters: ABSORBTION  ABSORBTION_FLAG_W  IMAGE_COUNT  IMAGE_COUNT_FLAG_W  CYTO_COUNT  CYTO_COUNT_FLAG_W
+# 20141003CCHSIOCBG
+# Merged parameters: TRITUM  TRITUM_FLAG_W  TRITER
+# 20141003CCHSIOCBG
+# Merged parameters: TRITUM  TRITUM_FLAG_W  HELIUM  HELIUM_FLAG_W  DELHE3  DELHE3_FLAG_W  TRITER  NEON  NEON_FLAG_W  NEONER  HELIER  DELHER  THETA
+# BOTTLE 20140918PRINUNIVRMK
+# 9/18/14 Merged He  Ne  and H3 data from Jenkins
+# 20140129CCHSIOSE
+# Merged parameters: DELC13  DELC13_FLAG_W  DELC14  DELC14_FLAG_W  C14ERR  CDOM325  CDOM325_FLAG_W  CDOM340  CDOM340_FLAG_W  CDOM380  CDOM380_FLAG_W  CDOM412  CDOM412_FLAG_W  CDOM443  CDOM490  CDOM490_FLAG_W  CDOM555  CDOM555_FLAG_W  CDOMSL  CDOMSL_FLAG_W  CDOMSN  CDOMSN_FLAG_W
+# 20131122CCHSIOCBG
+# Merged parameters: PH_TOT  PH_TOT_FLAG_W  PH_TMP
+# 20121025CCHDOSIOCBG
+# merged ALKALI  DOC  TDN
+# BOTTLE 20120208CCHDOSIOCBG
+# merged TCARBN received from Alex Kozyr 2012-02-03
+# BOTTLE 20120207CCHDOSIOCBG
+# removed ABSORBTION  IMAGE_COUNT  CYTO_COUNT  contained no data 
+# BOTTLE 20110422ODF
+# REPORTED DEPTH IS CTD_DEPTH + DISTANCE_ABOVE_BOTTOM AT MAX PRESSURE
+#
+# BOTTLE 20160128PRINUNIVRMK
+# 10/1/2014 Initialized README file 
+# Hydro: Who - J.Swift; Status - final 
+#       Notes:   
+# Nutrients: Who - J.Swift; Status - final 
+#       Notes: 
+# O2: Who - J.Swift; Status - final 
+#       Notes: 
+# TCO2: Who - C.Sabine;R.Wanninkhof; Status - final 
+#       Notes: final data from CDIAC Dec. 2011 
+# TA: Who - A.Dickson; Status - final 
+#       Notes: final data from CDIAC Dec. 2011 
+# pH: Who - F.Millero; Status - final 
+#       Notes: final data rcd  and merged Dec. 2012 
+#       Reported on total H+ scale at 25C 
+# CFC: Who - W.Smethie;W.Ho; Status - final 
+#       Notes: final data Feb. 2012 
+#       Includes SF6 
+# C14: Who - R.Key;A.McNichol; Status - final 
+#       Notes: Final data Jan. 2014 
+# H3/He3: Who - W.Jenkins;P.Schlosser; Status - incomplete 
+#       Notes: final WHOI data 10/1/14 
+#              final LDEO data 4/14/15 except for He3 
+#              final LDEO He3 data 7/8/15 
+#              revised WHOI H3 data 12/18/15 
+#              revised WHOI H3 data 1/28/16 
+#       Uncertainty on 3H data exceptionally large on station 104:129 due to 
+#               unusual contamination issue from bottle caps 
+# DOC/TDN: Who - D.Hansell; Status - 
+#       Notes: final data from CDIAC Dec. 2011 
+#
+#| CITATION:
+#| These data were provided by:
+#|
+#| PARAMETER/PROGRAM         Affiliation  PI               email
+#| ------------------------  -----------  --------------- -----------------------------
+#| Chief Scientist           SIO          Jim Swift        jswift@ucsd.edu
+#| Co-Chief Scientist        TAMU         Alex Orsi        aorsi@tamu.edu
+#| CTD                       SIO          Jim Swift        jswift@ucsd.edu
+#| salinity                  SIO          Jim Swift        jswift@ucsd.edu
+#| dissolved oxygen          SIO          Jim Swift        jswift@ucsd.edu
+#| nutrients                 SIO          Jim Swift        jswift@ucsd.edu
+#| Total Carbon (DIC)        PMEL         Chris Sabine     chris.sabine@ noaa.gov
+#|                           AOML         Rik Wanninkhof   Rik.Wanninkhof@noaa.gov
+#| Total Alkalinity/pH       SIO          Andrew Dickson   adickson@ucsd.edu
+#| CFC/SF6                   LDEO         Bill Smethie     bsmeth@ldeo.columbia.edu
+#|                           UHawaii      David Ho         ho@hawaii.edu
+#| Helium/Tritium            LDEO         Peter Schlosser  schlosser@ldeo.columbia.edu
+#| DOC/TDN                   RSMAS        Dennis Hansell   dhansell@rsmas.miami.edu
+#| DELC13/DELC14             WHOI         Ann McNichol     amcnichol@whoi.edu
+#|                           WHOI         Robert Key       key@princeton.edu
+#| CDOM (preliminary flags)  UCSB         N.B. Nelson      norm@icess.ucsb.edu
+#|
+#| CDOM DATA:  Absorption Coefficient of 0.2um filtered SW (acdom) at 325 nm
+#|             Determined using a 200cm liquid waveguide spectrometer system
+#|             Using UltraPath 2     calibration 10 (Sep 2010) *not applied*
+#|
+#| Following American Geophysical Union
+#| recommendations  the data should be cited as: data
+#| provider(s)  cruise name or cruise ID  data file name(s)
+#| CLIVAR and Carbon Hydrographic Data Office  La Jolla  CA
+#| USA  and data file date. For further information  please
+#| contact one of the parties listed above or cchdo@ucsd.edu.
+#| Users are also requested to acknowledge the NSF/NOAA-funded
+#| U.S. Repeat Hydrography Program in publications resulting
+#| from their use.
+#

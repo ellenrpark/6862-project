@@ -1,0 +1,35 @@
+BOTTLE 20140204SIOCCHRJL
+# OXYGEN flag -999 changed to 9
+# TCARBN and OXYGEN empty fill value flag 2 changed to flag 9
+# BOTTLE 20130321PRINUNIVRMK
+# 9/24/2012 Initialized README file  
+# Data source: Brian King 3/6/13; carbon: D.Bakker 1/25/11 
+# SHIP: James Cook 
+# Cruise: JC031 
+# Region: Drake Passage 
+# EXPOCODE: 740H20090203 
+# DATES: 2/3 - 3/3/2009 
+# Chief Scientist: E.L. McDonagh 
+# 80 stations with 24 place Rosette 
+# Hydro: Who - E.McDonagh; Status - final 
+# 	Notes: 	See McDonagh et al.  2009. 
+# 	CTD/Rosette package changed after station 12 
+# Nuts: Who - M.Stinchcombe; Status - final 
+# 	Notes: 
+# O2: Who - M.Stinchcombe; Status - final 
+# 	Notes: 
+# TCO2: Who - D.Bakker; Status - final 
+# 	Notes: see Charalampopoulou  2011. 
+#       Methods similar to Bakker et al.  2007.
+# TA: Who -D.Bakker; Status - final 
+# 	Notes: all run in duplicate with average RMS err of 4.5umol/kg 
+#       Methods similar to Bakker et al.  2007.
+# CFC: Who - M.J.Messias; Status - proprietary for undetermined period 
+# 	Notes: includes SF6 
+#	Data available on request from PI
+# Ar/O: Who - ; Status - unknown 
+# 	Notes: no data in file 
+# References: 
+# McDonagh  E.L.(2009) RRS James Cook Cruise JC031  03 Feb-03 Mar 2009. Hydrographic sections of Drake Passage.   Hamersley  D.R.C. and McDonagh  E.L. (eds.)  Southampton  UK  National Oceanography Centre Southampton  170pp. (National Oceanography Centre Southampton Cruise Report (39)). 
+# Charalampopoulou  Anastasia (2011) Coccolithophores in high latitude and Polar regions: Relationships between community composition  calcification and environmental factors. University of Southampton  School of Ocean and Earth Science  Doctoral Thesis  139pp. 
+# Bakker  D.C.E.  M.C. Nielsdottir  P.J. Morris  H.J. Venables  A.J. Watson (2007) The island mass effect and biological carbon uptake for the subantarctic Crozet Archipelago. Deep-Sea Research II  54: 2174-2190  doi:10.1016/j.dsr2.2007.06.009.

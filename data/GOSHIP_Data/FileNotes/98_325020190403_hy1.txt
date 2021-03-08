@@ -1,0 +1,118 @@
+BOTTLE 20200404CCHSIOCBG
+# Merged parameters: SF6_FLAG_W  N2O  N2O_FLAG_W
+# N2O - data are preliminary  flagged 3
+#
+# 20190725SIO
+# ODF Parameters are considered "final" these include  nutrients  salinity  oxygen  and all CTD params  "final" TCARBN data are also in this file
+#
+# BOTTLE 20190718PRINUNIVRMK
+# 08/31/2018 Initialized README file  
+# Data source:  
+# SHIP: Thomas G. Thompson 
+# Cruise: Cape Town  South Africa back to Cape Town 
+# Region: I06S 
+# EXPOCODE: 325020190403 
+# DATES: 20190403 - 20190514 
+# Chief Scientist: A. Orsi; I. Rosso 
+# 55 stations with 36 place Rosette 
+# SOCCOM Biogeochemical floats deployed by Isa Rosso
+# #    Sta   WMO_ID      Lat       Lon       Date      Name                   Adopted By 
+# 1     14    12878     -65.499   29.996   20190418  Patriot              Kings Mountain Middle School  Kings Mountain  NC 
+# 2     19    12892     -62.998   29.999   20190420  F.L.O.A.T.           Science and Technologh High School  New London  CT 
+# 3     33    12885     -56.003   29.989   20190425  Whale Clam           Waterford H.S. and Clark Lane M.S.  Waterford  CT 
+# 4     42    12888     -51.488   29.992   20190430  Silva                East Middle School  Brockton  MA 
+# 5     U.W.* 12882     -44.972   29.011   20190506  SD Wildcats          Wangenheim Middle School  San Diego  CA 
+# 6     48     0888     -33.696   28.550   20190509  Alan                 Sydney Distance Education High School  Sydney  Australia 
+# 7     51     0889     -35.003   30.000   20190510  CHS Ne-mer           Cienega High School  Pima County  AZ 
+# *Underway  no station at this location 
+# Supported by NSF Award PLR-1425989 to J.L. Sarmiento et al.  
+# CTD: Who - S. Becker  J. Swift; Status - final 
+#       Includes: CTDSAL  CTDOXY 
+# Optical profile: Who - E. Boss; Status - preliminary 
+#       Includes: FLBB  Backscatter  FLUOR   XMISS 
+# SALNTY: Who - S. Becker  J. Swift; Status - final 
+#       Notes:   
+# Nutrients: Who - S. Becker  J. Swift; Status - final 
+#       Includes: nitrate  nitrite  silicate  phosphate 
+# OXYGEN: Who - S. Becker  J. Swift; Status - final 
+#       Notes: 
+# TCARBN: Who - R.Wanninkhof; Status - final 
+#       Notes: Data merged 7/18/19 from file  
+# ALKALI: Who - A.Dickson; Status - preliminary 
+#       Notes:  
+# pCO2: Who - D. Greeley  D. Feely; Status - 
+#       Notes: Underway only 
+# CFC: Who - D.Min; Status - final 
+#       Notes: N2O data are preliminary  flagged 3
+# C14/C13: Who - R.Key A.McNichol; Status - collected 
+#       Notes:  
+# O18: Who - M.Meridith; Status - 
+#       Notes:  
+# HPLC:  Who - E. Boss; Status -  
+#       Notes: supported by NASA grant NNX14AP49G 
+# POC/DOC: Who - D.Hansell; Status - collected 
+#       Notes:  
+# Other: Who - ; Status - 
+#       Notes:  
+# These data should be cited as: 
+# References that have used data from this cruise: 
+# 
+# For data citation  please use the data providers listed below. 
+#
+# Programs and Principal Investigators
+# 
+# Program                   Affiliation         Principal          Email                    
+#                                               Investigator      
+# ————————————————————————————————————————————————————————————————————————————————————————————
+# Chief Scientist           TAMU                Alejandro Orsi     aorsi@tamu.edu          
+# Co-Chief Scientist        UCSD                Isabella Rosso     irosso@ucsd.edu         
+# floats and drifters                                                                          
+# CTDO Data  Salinity       UCSD  SIO           Susan Becker       sbecker@ucsd.edu         
+# Nutrients  Dissolved O_2                      Jim Swift          jswift@ucsd.edu          
+# Total CO_2 (DIC)          AOML  PMEL          Dana Greely        dana.greeley@noaa.gov    
+#                           NOAA                Rik Wanninkhof     Rik.Wanninkhof@noaa.gov  
+# Underway Temperature      PMEL  NOAA          Dana Greely        dana.greeley@noaa.gov    
+# Salinity  and pCO_2                                                                       
+# Total Alkalinity  pH      UCSD  SIO           Andrew Dickson     adickson@ucsd.edu        
+# SADCP                     UH                  Eric Firing        efiring@soest.hawaii.edu 
+# LADCP                     LDEO                Andreas Thurnherr  ant@ldeo.columbia.edu    
+# CFCs  SF6  N20            UT                  Dong-Ha Min        dongha@mail.utexas.edu   
+# DOC  TDN  TOC  TN         RSMAS               Dennis Hansell     dhansell@rsmas.miami.edu 
+# C13 & C14                 WHOI  Princeton     Ann McNichol       amcnichol@whoi.edu       
+#                                               Robert Key         401 Sayre Hall
+#                                                                  Princeton University
+#                                                                  08544 Princeton   NJ        
+# Transmissometry           TAMU                Wilf Gardner       wgardner@ocean.tamu.edu  
+# Fluorescence and          U Maine             Emmanuel Boss      emmanuel.boss@maine.edu  
+# Backscatter (SOCCOM)                                                                      
+# Chipod                    OSU                 Jonathan Nash      nash@coas.oregonstate.edu
+# d18O                      BAS                 Mike Meredith      mmm@bas.ac.uk            
+# CSIRO Argo Floats         CSIRO               Rebecca Cowley     rebecca.cowley@csiro.au  
+# NOAA/PMEL Argo Floats     PMEL  NOAA          NOAA/PMEL          elizabeth.steffen@noaa.gov 
+# SOCCOM Floats             UW  UCSD  SIO       Steve Riser        riser@ocean.washington.edu  
+#                                               Lynne Talley       ltalley@ucsd.edu     
+#                                               Ken Johnson       
+# Surface Drifters          NOAA  AOML          Shaun Dolk         Shaun.dolk@noaa.gov      
+# GPS data/bathymetry       UCSD                David Sandwell     dsandwell@ucsd.edu       
+# UVP                       U Alaska Fairbanks  Andrew McDonnell   amcdonnell@alaska.edu    
+# Gliders                   Caltech             Andrew Thompson    andrewt@caltech.edu 
+#
+# DATA CITATION
+#| Following American Geophysical Union recommendations  the data should be cited as: 
+#| [Data providers of the parameter(s) used]. [Year of file access]. [CTD/Bottle] data 
+#| from cruise [expocode]  [format version used]. Accessed from CCHDO [url of cruise 
+#| data page]. Access date [date of download]. [Applicable CCHDO cruise DOI if provided]
+#| 
+#| For example: Swift  J. and Becker  S. 2019. CTD data from Cruise I09N  exchange version. 
+#|  Accessed from CCHDO https://cchdo.ucsd.edu/cruise/33RR20160321. Access date 2019-08-21. 
+#|  CCHDO cruise DOI: 10.7942/C2008W
+#|
+#| For further information  please contact one of the parties listed above or cchdo@ucsd.edu. 
+#| Users are also requested to acknowledge the NSF/NOAA-funded U.S. Repeat Hydrography Program 
+#| in publications resulting from their use.
+# 
+# PRELIMINARY STATEMENT
+#| Some of the data in these files are preliminary  and are subject to final 
+#| calibration and processing. Users should maintain caution in their 
+#| interpretation and use. See header comments within the file for more information.
+#

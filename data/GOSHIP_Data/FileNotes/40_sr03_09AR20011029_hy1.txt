@@ -1,0 +1,26 @@
+BOTTLE 20100811CCHDOSIOJCF
+#BOTTLE 20081126PRINUNIVRMK
+#BOTTLE 20070618WHPSIODBK
+# Ship: Aurora Australis;  
+# Cruise: 09AA0301; WOCE SR03.2001; SCM03 (basename sr03.aa2001) 
+# Cruise dates: 10/29-12/11/2001 
+# EXPOCODE: 09AR20011029 
+# Region: Section from Tasmania to Antarctica 
+# Ch. Sci.: B. Tilbrook 
+# 134 stations with 24 place Rosette 
+# Hydro: Who - S.Rintoul; Status - final 
+# 	Notes: Data from CCHDO 5/29/08 
+# Nuts/O2: Who - ?; Status - final 
+# 	Notes: Data from CCHDO 5/29/08 
+# TCO2: Who - Tilbrook/Sabine; Status - final 
+# 	Notes: CRM batch 52 
+# 	CRM analysis: 2005.64+/-1.36umol/kg (1 s.d.  n=64) 
+# 	Somma 
+# TA: Who - Tilbrook/Sabine; Status - final 
+# 	Notes: Closed cell potentiometric titration 
+# 	Accuracy and precision estimated to be +/-1.23umol/kg 
+# 	Shipboard duplicate analyses had absolute difference of 0.79+/-0.62 
+# 		(1 s.d. n=151) 
+# CFC: Who - ; Status - final 
+# 	Notes: Includes cfc-113  
+# Other: DOC  POC  O18  Th230  etc. collected but no data in file

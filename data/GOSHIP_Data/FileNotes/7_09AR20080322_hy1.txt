@@ -1,0 +1,33 @@
+BOTTLE 20141029CCHSIOCBG
+# Merged parameters: TCARBN  TCARBN_FLAG_W  ALKALI  ALKALI_FLAG_W  DOC  DOC_FLAG_W  TDN  TDN_FLAG_W
+# BOTTLE 20130402PRINUNIVRMK
+# 8/17/2011 Initialized README file
+# Data source: CCHDO; B.Tilbrook 3/25/13
+# SHIP: Aurora Australis
+# Cruise: SR03; AU0806
+# Region: Southern Ocean south of Tasmania
+# EXPOCODE: 09AR20080322
+# DATES: 3/22 - 4/17/2008
+# Chief Scientist: M. Rosenberg & S. Rintoul
+# 73 stations with 24 place Rosette
+# Hydro: Who - M.Rosenberg; Status - final
+#       Notes: See cruise report for details
+# Nuts/O2: Who - ; Status - final
+#       Notes: nitrate is really NO3+NO2
+#       Phosphate offset of ~0.13 (high) noted by PIs
+#       Conversion to umol using temperature of 20.5C by PIs
+# TCO2: Who - B.Tilbrook; Status - final
+#       Notes: Data from Tilbrook 3/25/13
+# TA: Who - B.Tilbrook; Status - final
+#       Notes: Data from Tilbrook 3/25/13
+# CFC: Who - M.Warner; Status -  final
+#       Notes: includes CFC113
+# Other: GEOTRACES trace metal work- no data in file
+#       DOC/TDN - D. Hansell; Data from Tilbrook 3/25/13
+#       O-18- no data in file
+# References:
+# 20120202SIOCCHDOCBG
+# CTD data and bottle data other than CFC's: ACE CRC  Australia
+# CFC: Mark Warner  University of Washington
+# Citation: Rosenberg  M. and Rintoul  S. (unpublished) Aurora Australis Marine Science Cruises AU0803
+#            and AU0806 - oceanographic field measurements and analysis. ACECRC  Hobart  unpublished report.

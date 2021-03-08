@@ -1,0 +1,47 @@
+BOTTLE 20130404CCHSIOCBG
+# Merged parameters: SILCAT NITRAT NITRIT PHSPHT PH_TOT PH_TOT_FLAG_W PH_TMP
+#BOTTLE 20121126CCHDOSIOCBG
+# merged DELC13 and DELC14 along with C14ERR and quality flags 
+#code : Justin Fields merge_exchange.rb 
+#original files copied from HTML directory: 2012-11-26
+#BOTTLE 20120830SIOCCHAMB
+#BOTTLE 20110607CCHDOSIOJCF
+#BOTTLE 20110510CCHDOSIOJCF
+#BOTTLE 20110302CCHDOSIOJCF
+#BOTTLE 20110218CCHDOSIOJCF
+#BOTTLE 20101018CCHDOSIOJCF
+#BOTTLE 20100615CCHDOSIODBK
+#BOTTLE 20100602NOAA
+# Chief Scientist        John Bullister (PMEL)
+# Co-Chief Scientist     Robert Key (Princeton)
+#
+# PARAMETER/PROGRAM         Affiliation  PI               email
+# ------------------------  -----------  ---------------  -----------------------------
+# CTD                       PMEL         Gregory Johnson  gjohnson@pmel.noaa.gov
+#                           AOML         Molly Baringer   Molly.Baringer@noaa.gov
+# SALINITY                  AOML         Molly Baringer   Molly.Baringer@noaa.gov
+# CO2 (DIC)                 PMEL         Richard Feely    richard.a.feely@noaa.gov
+# pCO2/Underway             NOAA/AOML    Rik Wanninkhof   Rik.Wanninkhof@noaa.gov
+# Nutrients                 AOML         Jia-Zhong Zhang  zhang@aoml.noaa.go
+#                           PMEL         Calvin Mordy     calvin.w.mordy@noaa.gov
+# Dissolved Oxygen          AOML         Molly Baringer   Molly.Baringer@noaa.gov
+#                           RSMAS        Chris Langdon    clangdon@rsmas.miami.edu
+# Total Alkalinity/pH       SIO          Andrew Dickson   adickson@ucsd.edu
+# CFC/SF6                   PMEL         John Bullister   John.L.Bullister@noaa.gov
+# DOC/TDN                   RSMAS        Dennis Hansell   dhansell@rsmas.miami.edu
+# 13C/14C                   WHOI         Ann McNichol     amcnichol@whoi.edu
+#                           Princeton    Robert Key       key@Princeton.EDU
+#
+# The data included in these files are preliminary  and are
+# subject to final calibration and processing. They have been
+# made available for public access as soon as possible following
+# their collection.  Users should maintain caution in their
+# interpretation and use. Following American Geophysical Union
+# recommendations  the data should be cited as: data 
+# provider(s)  cruise name or cruise ID  data file name(s)
+# CLIVAR and Carbon Hydrographic Data Office  La Jolla  CA
+# USA  and data file date. For further information  please
+# contact one of the parties listed above or cchdo@ucsd.edu.
+# Users are also requested to acknowledge the NSF/NOAA-funded
+# U.S. Repeat Hydrography Program in publications resulting
+# from their use.

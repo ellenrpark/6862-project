@@ -1,0 +1,54 @@
+BOTTLE 20160203PRINUNIVRMK
+# file processed by CCHDO on 2016-02-16
+# SHIP: Ronald H. Brown 
+# Cruise: P18.2007; RB-07-11; RB-08-01 
+# Region: Eastern Pacific meridional line 
+# EXPOCODE: 33RO20071215 
+# DATES: 2007-12-15 to 2008-02-23 
+# 177 stations with 24 place Rosette 
+#  These data were provided by: 
+#  PARAMETER/PROGRAM      NAME                       EMAIL ADDRESS 
+#  -----------------      ----                       -------------- 
+#  Chief Scientist Leg 1  John L. Bullister-PMEL    John.L.Bullister@noaa.gov 
+#  Chief Scientist Leg 2  Gregory C. Johnson-PMEL   Gregory.D.Johnson@noaa.gov 
+#  PARAMETER/PROGRAM                   Institution      Principal Investigator  email                      
+#  ----------------------------------  ---------------  ----------------------  -------------------------- 
+#  CTDO/Salinity                       NOAA/PMEL        Gregory C. Johnson      Gregory.C.Johnson@noaa.gov 
+#                                      NOAA/AOML        Molly Baringer          Molly.Baringer@noaa.gov    
+#  Data Management                     UCSD/SIO         James H. Swift          jswift@ucsd.edu            
+#  Chlorofluorocarbons(CFCs)           NOAA/PMEL        John Bullister          John.L.Bullister@noaa.gov  
+#                                      UWashington      Mark Warner             warner@u.washington.edu    
+#  3He/Tritium                         LDEO             Peter Schlosser         peters@ldeo.columbia.edu   
+#  O2                                  NOAA/AOML        Chris Langdon           clangdon@rsmas.miami.edu   
+#  Total CO2(DIC)/pCO2                 NOAA/PMEL        Richard Feely           Richard.A.Feely@noaa.gov   
+#                                      NOAA/AOML        Rik Wanninkhof          Rik.Wanninkhof@noaa.gov    
+#  Total Alkalinity/pH/Density         UMiami           Frank Millero           fmillero@rsmas.miami.edu   
+#  Nutrients                           NOAA/PMEL        Calvin Mordy            Calvin.W.Mordy@noaa.gov    
+#                                      NOAA/AOML        Jia-Zhong Zhang         Jia-Zhong.Zhang@noaa.gov   
+#  CDOM/POC/Chlor.a                    UCSB             Craig Carlson           carlson@lifesci.ucsb.edu   
+#  13C/14C                             UWashington      Paul Quay               pdquay@u.washington.edu  
+#  DOC                                 UMiami           Dennis Hansell          dhansell@rsmas.miami.edu   
+#  DON                                 UMass            Mark Altabet            maltabet@umassd.edu        
+#  Noble Gases (ONAR)                  UWashington      Steve Emerson           emerson@u.washington.edu   
+#  30Si/28Si                           IGMR/ETH Zurich  Ben Reynolds            reynolds@erdw.ethz.ch      
+#  Transmissometer                     TAMU             Wilf Gardner            wgardner@ocean.tamu.edu    
+#  Lowered ADCP                        LDEO             Andreas Thurnherr       ant@ldeo.columbia.edu      
+#  Shipboard ADCP                      UHawaii          Eric Firing             efiring@hawaii.edu         
+#  TAO Servicing                       NOAA/NDBC        Lex LeBlanc             Lex.LeBlanc@noaa.gov       
+#  Argo Float deployments & XBT drops  NOAA/PMEL        Gregory C. Johnson      Gregory.C.Johnson@noaa.gov 
+#  Drifter Deployment                  NOAA/AOML        Shaun Dolk              Shaun.Dolk@noaa.gov        
+#  Underway surface ocean              NOAA             Ship personnel                                     
+#  meteorological and bathymetry data 
+#  Following American Geophysical Union recommendations  
+#  the data should be cited as: data provider(s)  cruise name 
+#  or cruise ID  data file name(s) CLIVAR and Carbon Hydrographic 
+#  Data Office  La Jolla  CA USA  and data file date. For further 
+#  information  please contact one of the parties listed above or 
+#  cchdo@ucsd.edu. Users are also requested to acknowledge the 
+#  NSF/NOAA-funded U.S. Repeat Hydrography Program in publications 
+#  resulting from their use. 
+# BOTTLE 20080904WHPSIOdm 
+# code : jjward hyd_to_exchange.pl 
+# original files copied from HTML directory: 
+# original HYD file: p18_33RO20071215hy.txt   Tue Sep  2 12:11:20 2008 4 
+# original SUM file: p18_33RO20071215su.txt   Fri Aug 22 10:55:20 2008 5 

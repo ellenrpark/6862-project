@@ -1,0 +1,22 @@
+BOTTLE 20090410PRINUNIVRMK
+# 11/01/07 this file initialized 
+# Data from C. LoMonaco 10/29/07 with update on 4/10/09 
+# Ship: Marion-Dufresne 
+# Cruise: OISO-10 
+# Cruise dates: 1/23-2/17/2003 
+# EXPOCODE: 35MF20030123 
+# Region: meridional section on SR03 line from Tasmania to Antarctica 
+# Chief Scientist: N. Metzl 
+# 10 stations;  with 24 place Rosette 
+# Hydro: Who - N.Metzl; Status - final 
+# 	Notes: both CTD and bottle salts 
+# Nuts/O2: Who - N.Metzl; Status - final  
+# 	Notes: both ctd and bottle oxygen 
+# 	Nutrients compare favorably with WOCE and CLIVAR data 
+# TCO2: Who - C. Lo Monaco; Status - final 
+# 	Notes: CRM batch #52 
+# 	Values corrected to CRM 
+# TA: Who - C. Lo Monaco; Status - final 
+# 	Notes: CRM batch #52 
+# 	Values corrected to CRM 
+# Other: ChloroA 

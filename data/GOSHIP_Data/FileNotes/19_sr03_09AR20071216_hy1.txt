@@ -1,0 +1,11 @@
+BOTTLE 20120305CCHDOSIOCBG
+# added line names under SECT_ID and all comments below
+#BOTTLE 20100602ACECRC
+# NOTE: all data here are finalised
+# The data originators (ACE CRC  Australia for CTD data and bottle data other than CFC's;
+#  Mark Warner  University of Washington for CFC data) should be acknowledged in any publication 
+#  including internal reports  published reports  journal articles  presentations etc.
+# The following reference can be used for the data:
+#  Rosenberg  M. and Rintoul  S. (unpublished) Aurora Australis Marine Science Cruise AU0803 and
+#   AU0806 - oceanographic field measurements and analysis. ACECRC  Hobart  unpublished report.
+# contact: Mark Rosenberg  mark.rosenberg@utas.edu.au

@@ -1,0 +1,48 @@
+BOTTLE 20170412CCHSIORJL
+# Merged parameters: CH3Cl  CH3Cl_FLAG  CH3Br  CH3Br_FLAG  CH3I  CH3I_FLAG
+# Merged parameters from A16S_MeX_HY1.csv (Submitted by Shari Yvon Lewis on 20080714)
+# Merged parameters: HELIUM  HELIUM_FLAG_W  DELHE3  DELHE3_FLAG_W  NEON  NEON_FLAG_W  NEONER  HELIER  DELHER
+# Merged parameters from LDEO_NGL_CliVarHeNe4CCHDO_A16S.xlsx (Submitted by R.Newton on 20150411)
+# Merged parameters: TRITUM  TRITUM_FLAG_W  TRITER
+# Merged parameters from LDEO_NGL_CliVarTritium4CCHDO_A16S.xlsx (Submitted by R.Newton on 20150413)
+# Change CH3Cl to CH3L
+# 20110831CCHDOSIOCBG
+#code : Justin Fields merge_exchange.rb 
+#original files copied from HTML directory: 2011-08-31
+#original HYD file: /data/co2clivar/atlantic/a16/a16s_2005a/original/2011.08.25_carbon_cberys/original_hy1.csv  2011-08-31
+#BOTTLE 20100913CCHDOSIOCBG
+#code:copy_exchange_bot.rb (J. Fields)
+#citations added by A. Barna
+#BOTTLE 20091030CCHDOSIOJCF
+# code : Justin Fields merge_exchange.rb
+#| PARAMETER/PROGRAM    Institution     Principal Investigator
+#| ------------------------------------------------------------------
+#| CTD                  PMEL/AOML       Greg Johnson/Molly Baringer
+#| Salinity             PMEL            Greg Johnson
+#| CFCs                 UW/PMEL         Mark Warner/John Bullister
+#| HCFCs                TAMU            Shari Yvon-Lewis
+#| DIC                  AOML/PMEL       Rik Wanninkhof/Dick Feely
+#| Discrete pCO2        AOML            Rik Wanninkhof
+#| Dissolved O2         RSMAS-U. Miami  Chris Langdon
+#| Nutrients            UW/AOML         Calvin Mordy/Jia-Zhong Zhang
+#| Helium/Tritium       LDEO            Peter Schlosser
+#| CO2-Alkalinity       RSMAS-U. Miami  Frank Millero
+#| CO2-pH               RSMAS-U. Miami  Frank Millero
+#| DOC                  RSMAS-U. Miami  Dennis Hansell
+#| CDOM                 UCSB            Norm Nelson/Craig Carlson
+#| Underway pCO2        AOML            Rik Wanninkhof
+#| 13C/14C              WHOI            Ann McNichol
+#| ADCP/LADCP           U. Hawaii/LDEO  Eric Firing/Andreas Thurnherr
+#| Aerosols             CWU             Anne Johansen
+#| SAMI/CO2             U. Montana      Mike DeGrandpre
+#| CO2 System Develop.  USF             Robert Byrne
+#|
+#| Following American Geophysical Union recommendations 
+#| the data should be cited as: data provider(s)  cruise name
+#| or cruise ID  data file name(s) CLIVAR and Carbon Hydrographic
+#| Data Office  La Jolla  CA USA  and data file date. For further
+#| information  please contact one of the parties listed above or
+#| cchdo@ucsd.edu. Users are also requested to acknowledge the
+#| NSF/NOAA-funded U.S. Repeat Hydrography Program in publications
+#| resulting from their use.
+#

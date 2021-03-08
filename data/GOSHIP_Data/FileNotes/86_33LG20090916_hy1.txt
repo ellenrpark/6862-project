@@ -1,0 +1,32 @@
+BOTTLE 20170907CCHSIORJL
+# Change FCO2_TMP to FCO2TMP
+# BOTTLE 20160504PRINUNIVRMK
+# 12/4/2012 Initialized README file  
+# Data source: D.Munro for C. Sweeney via CDIAC 11/28/12 
+# SHIP: RVIB Laurence M. Gould 
+# Cruise: LMG200909 
+# Region: Drake Passage; SR01 
+# EXPOCODE:33LG20090916 
+# DATES: 9/16 - 10/9/2009 
+# Chief Scientist: Colm Sweeney 
+# 24 stations with 24 place Rosette 
+# Hydro: Who - C.Sweeney; Status - final 
+# 	Notes: 	Final CTDSAL values from D.Munro 3/11/16 
+# Nuts: Who -C.Sweeney; Status - final 
+# 	Notes: data are not woce quality 
+# 	Nitrate is really NO3+NO2 
+# O2: Who - C.Sweeney;T.Newberger; Status - ? 
+# 	Notes: No data in file 
+# TCO2: Who - C.Sweeney;;T.Newberger Status - final 
+# 	Notes: CRM batch 36 
+# 	replicate precision ~1umol/kg 
+# FCO2: Who - C.Sweeney; Status - final 
+# 	Notes: 500ml samples measured at 20C  reported at in situ temperature 
+# CFC: Who - ; Status - 
+# 	Notes:  
+# C14: Who - T.Guilderson; Status -final 
+# 	Notes: P.Quay analyzed C13  
+# References: 
+# Graven  H. D.  T.P. Guilderson  and R.F. Keeling  2007. Methods for high precision measurements of atmospheric CO2 at LLNL. Radiocarbon  49  349-356. 
+# Munro  D.R.  Nicole S.Lovenduski   B.B.Stephens   T. Newberger  K.R.Arrigo  T. Takahashi  P.D.Quay  J. Sprintall  N.M.Freeman  and C. Sweeney  Estimates of net community production in the Southern Ocean determined from time series observations (2002-2011) of nutrients  dissolved inorganic carbon  and surface ocean pCO2 in Drake Passage  Deep-Sea Res. II  114  49-63  doi:/10.1016/j.dsr2.2014.12.014  2015. 
+# Munro  D.R. N.S. Lovenduski  T. Takahashi  B.B.Stephens  T.Newberger and C. Sweeney  Recent evidence for a strengthening CO2 sink in the Southern Ocean from carbon system measurements in the Drake Passage (2002-2015)  Geophys. Res. Let  in review  doi:10.1002/2015GL065194  2015. 

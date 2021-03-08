@@ -1,0 +1,21 @@
+BOTTLE 20081219PRINUNIVRMKPRINUNIVRMK
+# DATE this file initialized 9/4/07 
+# Data from M. Ishii 
+# Ship:Tangaroa 
+# Cruise: JARE43; SR03 
+# Dates: 2/6-3/7/2002 
+# EXPOCODE: 61TG20020206 
+# Region:SR03 line; Meridional section at 140E from Antarctica to 60S 
+# Chief Scientist: T. Odate 
+# 8 stations  
+# Hydro: Who - S.Aoki; Status - final 
+# 	Notes:  
+# Nuts/O2: Who - S.Watanabe; Status - final 
+# 	Notes: O2 converted from mL/L to umol/Kg with theta at sampling pressure (by provider) 
+# 	Nuts converted from umol/L to umol/kg assuming T=25C (by provider) 
+# 	Includes ammonium 
+# TCO2: Who - M. Ishii; Status - final 
+# 	Notes: Corrected to Japanese prepared CRM which were back-referenced to Dickson CRM batch #54 
+# CFC: Who - ; Status - no data yet  
+# 	Notes: samples returned to shore for analysis 
+# Other: Chloroa 

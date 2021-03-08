@@ -1,0 +1,60 @@
+BOTTLE 20160524SIOCCHCBG
+# Merged parameters: DELO18  DELO18_FLAG_W
+# Merged parameters: TRITUM  TRITER  TRITUM_FLAG_W
+# BOTTLE 20160202PRINUNIVRMK
+# 2/2/16 contamination corrected data from Jenkins 
+# 12/3/15 revised tritium data from Jenkins 
+# 6/8/15:Added O18 data and assigned flag of 2 for each datum;RMK 
+# Added H3  He  He3  Ne data 
+# 20140821SIOCCHCBG
+# Merged parameters: TRITUM  TRITER  TRITUM_FLAG_W
+# 20140205SIOCCHSE
+# Merged parameters: DELHE3  DELHER  DELHE3_FLAG_W  HELIUM  HELIER  HELIUM_FLAG_W  NEON  NEONER  NEON_FLAG_W
+# 20140111SIOCCHRJL
+# Added instructions for citation use
+#BOTTLE 20131203CCHSIOCBG
+# CFC-11  CFC-12  and CFC113 flag from 5 to 2 at (sta 2  ca 1  btl 4) (sta 3  ca 2  btl 1)
+#BOTTLE 20130918SIOCCHCBG  
+# Merged parameters: DELC14  DELC14_FLAG_W  C14ERR  DELC13  DELC13_FLAG_W
+# 20100913CCHDOSIOCBG
+#code: copy_exchange_bot.rb (J. Fields)
+#citations added by A. Barna
+#BOTTLE 20091124CCHDOSIOJCF
+#code : Justin Fields merge_exchange.rb
+#original files copied from HTML directory: 2009-11-24
+#| 
+#| Data Provided by:
+#| PARAMETER/PROGRAM            PI NAME                    EMAIL ADDRESS
+#| _________________________________________________________________________
+#| CTDO/rosette/S/O2/nutrients  Jim Swift  UCSD/SIO        jswift@ucsd.edu
+#| Transmissometer              Wilf Gardner  Texas A&M U  wgardner@ocean.tamu.edu
+#| Underway bathymetry          Frank Delahoyde  UCSD/SIO  frank@odf.ucsd.edu
+#|   meteorology  gravimetry    Shipboard Computer Group
+#|   thermosalinograph         
+#| Total alkalinity  pH         Andrew Dickson  UCSD/SIO   adickson@ucsd.edu
+#| CO2  DIC and underway pCO2   Rik Wanninkhof             Rik.Wanninkhof@noaa.gov
+#| DOM                          DOC/DON                    Craig Carlson - lead contact 
+#|                              Dennis Hansell  UM RSMS    dhansell@rsmas.miami.edu
+#| CDOM                         Norm Nelson  UCSB          norm@icess.ucsb.edu
+#| 13C/14C  isotopic content    Ann McNichol  WHOI         amcnichol@whoi.edu
+#|   of DIC                     Robert Key  Princeton      key@Princeton.EDU
+#| CFCs                         Rana Fine                  rfine@rsmas.miami.edu
+#| He/Tr/Neon                   Bill Jenkins               wjenkins@whoi.edu
+#| ADCP/LADCP                   Eric Firing  U Hawaii      efiring@soest.hawaii.edu
+#| Trace elements               Chris Measures  U Hawaii   chrism@soest.hawaii.edu
+#|                              Bill Landing  FSU          landing@ocean.fsu.edu
+#| ARGO floats                  Stephen Riser  UW          riser@ocean.washington.edu
+#|                              Anne Thresher  CSIRO       Ann.Thresher@csiro.au
+#| Black Carbon                 Thorsten Dittmar  FSU      dittmar@ocean.fsu.edu
+#| O18                          Mike Meredith              mmm@bas.ac.uk
+#|
+#|
+#|  Following American Geophysical Union recommendations  the data should be
+#|  cited as: "data provider(s)  cruise name or cruise ID  data file name(s) 
+#|  CLIVAR and Carbon Hydrographic Data Office  La Jolla  CA  USA  and data
+#|  file date." For further information  please contact one of the parties
+#|  listed above or cchdo@ucsd.edu. Users are also requested to acknowledge
+#|  the NSF/NOAA-funded U.S. Repeat Hydrography Program in publications resulting
+#|  from their use.
+#| 
+#|

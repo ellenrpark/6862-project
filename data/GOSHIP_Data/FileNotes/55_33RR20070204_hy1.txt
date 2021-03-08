@@ -1,0 +1,36 @@
+BOTTLE 20150626SIOCCHRJL
+# processed by cchdo on 2015-06-26 no change
+# BOTTLE 20150416PRINUNIVRMK
+# 10/6/2014 Initialized README file  
+# Data source: CCHDO version of 12/29/2009 
+# SHIP: Roger Revelle 
+# Cruise: I8S.2007 
+# Region: far SE Indian Ocean 
+# EXPOCODE: 33RR20070204 
+# DATES: 2/4 - 3/17/07 
+# Chief Scientist: J.Swift  A. Wong 
+# 88 stations with 36 place Rosette 
+# Hydro: Who - J.Swift; Status - final 
+# 	Notes: final data 5/8/07 
+# Nutrients: Who - J.Swift; Status - final 
+# 	Notes: final data 5/8/07 
+# O2: Who - J.Swift; Status - final 
+# 	Notes: final data 5/8/07 
+# TCO2: Who - R.Feely;C.Sabine; Status - final 
+# 	Notes: final data 9/19/07 
+# TA: Who - A.Dickson; Status - final 
+# 	Notes: final data 2/19/13 
+# CFC: Who - W.Smethie;J.Bullister; Status - final 
+# 	Notes:  
+# C14: Who - R.Key;A.McNichol; Status - final 
+# 	Notes: final data 9/2/08 
+# H3/He3: Who - P.Schlosser; Status -final 
+# 	Notes: He submitted 9/26/14 
+# 	H3 data added 4/16/15 
+# DOC/TDN: Who - C.Carlson; Status - final 
+# 	Notes: final data 3/14/08 
+# References: 
+# Cruise report available at: 
+# http://cchdo.ucsd.edu/data/co2clivar/indian/i08/i08s_33RR20070204/i08s_33RR20070204_do.pdf 
+# Carbon report and DOI: 
+# Feely  R.  C. Sabine  A. Dickson  R. Wanninkhof  D. Hansell. 2007. Carbon Dioxide  Hydrographic  and Chemical Data Obtained During the R/V Revelle Cruise in the Indian Ocean on CLIVAR Repeat Hydrography Sections I08S_2007 (Feb. 4 - Mar. 17  2007). http://cdiac.ornl.gov/ftp/oceans/CLIVAR/I08S_2007.data/. Carbon Dioxide Information Analysis Center  Oak Ridge National Laboratory  US Department of Energy  Oak Ridge  Tennessee. doi: 10.3334/CDIAC/otg.CLIVAR_I08S_2007 

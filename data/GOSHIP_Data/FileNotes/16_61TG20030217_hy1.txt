@@ -1,0 +1,29 @@
+BOTTLE 20081219PRINUNIVRMKPRINUNIVRMK
+# 9/27/07 file initialized 
+# Ship: Tangaroa 
+# Cruise: JARE44; SR03 
+# Dates: 2/17-3/12/2003 
+# EXPOCODE: 61TG20030217 
+# Region: SR03; Southern Ocean meridional section on 140E from 66-61S 
+# Chief Scientist: T. Odate 
+# 11 stations;  with 24 place Rosette 
+# Station number conversions: 
+# 6.1->61 
+# 6.2->62 
+# 7.1->71 
+# K->8 
+# slope6->9 
+# Hydro: Who - s.Ushio; Status - final  
+# 	Notes: 	 
+# Nuts/O2: Who - K.Sasaki; Status - final  
+# 	Notes: includes ammonium but no phosphate 
+# TCO2: Who - M. Ishii; Status - final  
+# 	Notes: Samples returned to shore for analysis.  
+# 	Corrected to Japanese prepared RM which were back-referenced to Dickson CRM #58 
+# CFC: Who - K. Sasaki; Status - no data yet  
+# 	Notes: Samples returned to shore for analysis 
+# C-13: Who - ; Status - no data yet  
+# 	Notes: Samples returned to shore for analysis 
+# Other: Chloroa; Phaeo. 
+# References: 
+# Preliminary report on the 44th Japanese Antarctic Research Expedition Marine Science Cruise by Research Vessel Tangaroa  National Institute of Polar Research.  

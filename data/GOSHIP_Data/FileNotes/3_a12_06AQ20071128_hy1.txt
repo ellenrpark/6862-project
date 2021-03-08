@@ -1,0 +1,28 @@
+BOTTLE 20120208PRINUNIVRMK
+# 2/6/2012 Initialized README file  
+# Data source:  2/6/2012 (via R.Ballerby and S.van Heuven) 
+# SHIP: Polarstern 
+# Cruise: ANT-XXIV_2 
+# Region: 3 meridional secitons at 3W 0 3E; eastern Weddell Sea; A12 partial; Capetown to Capetown 
+# EXPOCODE: 06AQ20071128 
+# DATES: 11/28/2007 - 2/4/2008 
+# Chief Scientist: Ulrich Bathmann (AWI) 
+# 77 stations with 24 place Rosette 
+# Hydro: Who - V. Strass; Status -  final 
+# 	Notes: 	Bottle numbers fabricated 
+# 	Temperature back-calculated from theta 
+# 	No bottle salinity 
+# Nuts: Who - R. Bellerby; Status - final 
+# 	Notes: nitrate only. Data very noisy 
+# O2: Who - R. Bellerby; Status - final 
+# 	Notes: no CTDOXY in file 
+# TCO2: Who - R. Bellerby; Status - final 
+# 	Notes: See Hauck et al.  2009 
+# TA: Who - R. Bellerby; Status - final 
+# 	Notes:  
+# CFC: Who - ; Status -  no data in file 
+# 	Notes:  includes CFC-113 and CCl-4 
+# POC/ChloroA: Who -  ; Status - no data yet  
+# 	Notes:  
+# References: 
+# Hauck  J.  M. Hoppema  R.G.J. Bellerby  C. Völker and D. Wolf-Gladrow  2010. Data-based estimation of anthropogenic carbon and acidification in the Weddell Sea on a decadal time scale. Journal of Geophysical Research 115: C03004  doi:10.1029/2009JC005479. 

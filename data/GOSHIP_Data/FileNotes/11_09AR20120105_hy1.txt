@@ -1,0 +1,20 @@
+BOTTLE 20131017PRINUNIVRMK
+# 10/28/2013 Initialized README file  
+# Data source: CCHDO 10/17/13 
+# SHIP: Aurora Australis 
+# Cruise: I09S 
+# Region: South of Australia on 117E 
+# EXPOCODE: 09AR20120105 
+# DATES: 1/5 - 2/12/2012 
+# Chief Scientist: S. Rintoul 
+# 88 stations with 24 place Rosette 
+# Hydro: Who - S.Rintoul; Status - final 
+# 	Notes: 	 
+# Nuts: Who - S.Rintoul; Status - final  
+# 	Notes: nitrate is really NO3+NO2 
+# O2: Who - S.Rintoul; Status - final 
+# 	Notes: 
+# TCO2: Who - ; Status - 
+# 	Notes:  
+# Other: CTD values for fluorescence  par and transmiss.  
+# References: 

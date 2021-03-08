@@ -1,0 +1,143 @@
+BOTTLE 20191105CCHSIOCBG
+# Merged parameters: D15N_NO3  D15N_NO3_FLAG_W  D15N_NO3+NO2  D15N_NO3+NO2_FLAG_W  D18O_NO3+NO2  D18O_NO3+NO2_FLAG_W  D18O_NO3  D18O_NO3_FLAG_W
+# Merged parameters: CHLORA  CHLORA_FLAG_W
+# Merged parameters: CDOM325  CDOM325_FLAG_W  CDOM340  CDOM340_FLAG_W  CDOM380  CDOM380_FLAG_W  CDOM412  CDOM412_FLAG_W  CDOM443  CDOM443_FLAG_W  CDOM490  CDOM490_FLAG_W  CDOM555  CDOM555_FLAG_W  CDOMSL  CDOMSL_FLAG_W  CDOMSN  CDOMSN_FLAG_W
+# Merged parameters: CFC-11  CFC-11_FLAG_W  CFC-12  CFC-12_FLAG_W  CFC113  CFC113_FLAG_W  SF6  SF6_FLAG_W  DELC14  DELC14_FLAG_W  C14ERR  DELC13  DELC13_FLAG_W  DOC  DOC_FLAG_W
+# 20170704CCHSIORJL
+# Merged parameters: CFC-11  CFC-11_FLAG_W  CFC-12  CFC-12_FLAG_W  CFC113  CFC113_FLAG_W  SF6  SF6_FLAG_W
+# Merged parameters from Stations 1-83.txt (submission by C.Berys for J.Happell on 2017-05-26)
+# 20170314CCHSIOCBG
+# fix SOCCOM float information 
+#BOTTLE 20161207CCHSIOCBG
+#BOTTLE 20161202CCHSIOCBG
+#BOTTLE 20160326SIO
+#
+#BOTTLE 20190923PRINUNIVRMK
+# 04/13/16 Initialized README file   
+# Data source: CCHDO 20160413  
+# SHIP: R/V Roger Revelle  
+# Cruise: I08S; RR1603  
+# Region: south central Indian Ocean  
+# EXPOCODE: 33RR20160208  
+# DATES: 20160208 - 20160316  
+# Chief Scientist: A. Macdonald  
+# 83 stations with 36 place U.S.Hyd. Rosette  
+# SOCCOM Biogeochemical floats deployed:  
+# Sta   WMO_ID  Lat       Lon       Date         
+# 11    5904687  -63.5      82.0     20160222  
+# 25    5904686  -57.5      82.5     20160224  
+# 36    5904684  -53.0      87.5     20160228  
+# 41    5904682  -50.5      89.8     20160301  
+# 48    5904683  -47.0      93.1     20160303  
+# 56    5904688  -42.4      95.0     20160305  
+# Supported by NSF Award PLR-1425989 to J.L. Sarmiento et al.  
+# CTD: Who - J.Swift S.Becker; Status - final  
+#       Notes:   
+#       Includes CTD  
+# Salinity: Who - S.Becker J.Swift; Status - final  
+#       Notes:    
+# Nutrients: Who - S.Becker J.Swift; Status - final  
+#       Notes:nitrate  nitrite  silicate  phopshpate  ammonium 
+# O2: Who - S.Becker J.Swift; Status - final  
+#       Notes:  
+# TCO2: Who - R.Wanninkhof; Status - final  
+#       Notes:   
+# ALKALI: Who - A.Dickson; Status - preliminary  
+#       Notes:   
+# pH: Who - A.Dickson; Status - preliminary  
+#       Notes:   
+# CFC: Who - W.Smethie;R.Fine; Status - final  
+#       Notes:  Additionally includes SF6 and CFC-113 
+#       Rcd 5/30/2017 
+# C14: Who - R.Key;A.McNichol; Status - final  
+#       Notes:  Includes C13 
+#       Added with QC 9/10/19 
+# O18: Who - P.Schlosser; Status - collected  
+#       Notes:   
+# DOC:  Who - C.Carlson; Status - final 
+#         Notes: final data rcd 6/3/18 
+# HPLC: Who - N.Nelson; Status - final 
+#       Notes: submitted to SeaBASS 6/2019 
+# CDOM: Who - N.Nelson; Status - preliminary 
+#       Notes: submitted to CCHDO 6/25/19 
+#       Merged 8/20/19 RMK 
+# POC: Who - N.Nelson; Status - lost 
+#       Notes: shipping problem 
+# These data should be cited as:  
+# data provider(s)  cruise name or cruise ID  data file name(s) CLIVAR and Carbon Hydrographic Data Office  La Jolla  CA  USA  and data file date."" For further information"  please contact one of the parties listed above or cchdo@ucsd.edu. Users are also requested to acknowledge the NSF/NOAA-funded U.S. Repeat Hydrography Program in publications resulting from their use.
+# References that have used data from this cruise:  
+#
+# CDOM Comments
+# I8S/I9N 2016 Section Preliminary Data
+# UCSB CDOM Project
+# 2017/5/11  N.B. Nelson  UCSB (norm@eri.ucsb.edu)
+# Absorption Coefficient of 0.2um filtered SW (acdom) at 325 nm
+# Determined using a 200cm liquid waveguide spectrometer system
+#
+# CHLORA Comments
+# UCSB CDOM PROJECT
+# CHLOROPHYLL A (MG/M3)
+# I8S SECTION 2016
+# Fluorometric Analysis at sea
+# Calibration from Nathalie Guillocheau & Janice Jones cal 22-Aug-14 
+# SCALE Fd Tau Tau/(Tau-1) 
+# HIGH 0.138925422 1.9539 2.0483 
+# MED 0.138626676 1.9496 2.0531 
+# LOW 0.126879138 1.8885 2.1255 
+# Norm Nelson  UCSB (norm@eri.ucsb.edu)
+# 
+# For data citation  please use the data providers listed below.
+#
+# Duties                  Name              Affiliation   Email Address             
+# ===========================================================================
+# Chief Scientist         Alison Macdonald  *WHOI*        amacdonald@whoi.edu       
+# Co-Chief Scientist      Viviane Menezes   *WHOI*        vmenezes@whoi.edu         
+#                            
+# Program                   Affiliation  PI                  Email                  
+# ======================================================================================
+# *CTDO* Data  Salinity     *UCSD*       Susan Becker        sbecker@ucsd.edu       
+# Nutrients  Dissolved O2   *SIO*        Jim Swift           jswift@ucsd.edu        
+# Total CO2 (DIC)           *AOML*       Rik Wanninkhof      Rik.Wanninkhof@noaa.gov
+# Underway pCO2             *NOAA*                                                  
+# Total Alkalinity  pH      *UCSD*       Andrew Dickson      adickson@ucsd.edu      
+#                           *SIO*                           
+# ADCP                      *UH*         Jules Hummon        Hummon@hawaii.edu      
+# *LADCP*                   *LDEO*       Andreas Thurnherr   ant@ldeo.columbia.edu  
+#                                        William Smethie     bsmeth@ldeo.columbia.edu
+#                           *UH*         David Ho            ho@hawaii.edu          
+# *CFCs*  SF6               *RSMAS*      Jim Happel          jhappell@rsmas.miami.edu
+# DOC  TDN                  *UCSB*       Craig Carlson       carlson@lifesci.ucsb.edu
+# Transmissometry           *TAMU*       Wilf Gardner        wgardner@ocean.tamu.edu
+# Chipod                    *OSU*        Jonathan Nash       nash@coas.oregonstate.edu
+#                           *UCSD*       Jen Mackinnon       jmackinnon@ucsd.edu 
+# *CDOM*  *HPLC*  *POC*     *UCSB*       Norm Nelson         norm@icess.ucsb.edu    
+# 13C/14C                   *WHOI*       Ann McNichol        amcnichol@whoi.edu     
+#                           *Princeton*  Robert Key          401 Sayre Hall
+#                                                            Princeton University
+#                                                            08544 Princeton   NJ 
+# δO^18                     *LDEO*       Peter Schlosser     schlosser@ldeo.columbia.edu
+#                                                                                       
+# δN^15 and δO^18 in NO3    *VUB*        Francois Fripiat    ffripiat@ulb.ac.be     
+# *NOAA* Drifters           *AOML*       Shaun Dolk          shaun.dolk@noaa.gov    
+# *SOCCOM* Floats           *UW*         Stephen Riser       riser@ocean.washington.edu
+#                           *MBARI*      Ken Johnson         johnson@mbari.org  
+#                           *SIO*        Lynne Talley        ltalley@ucsd.edu       
+# *SOCCOM* Optical Sensors  *Princeton*  Emmanuel Boss       emmanuel.boss@maine.edu
+# Bathymetry  Underway      *UCSD*       Bruce Applegate     bapplegate@ucsd.edu    
+# Thermosalinograph         *SIO*                                                  
+# 
+# 
+# These data should be cited as: 
+#
+#| Following American Geophysical Union recommendations  the data should be
+#| cited as: "data provider(s)  cruise name or cruise ID  data file name(s) 
+#| CLIVAR and Carbon Hydrographic Data Office  La Jolla  CA  USA  and data
+#| file date." For further information  please contact one of the parties
+#| listed above or cchdo@ucsd.edu. Users are also requested to acknowledge
+#| the NSF/NOAA-funded U.S. Repeat Hydrography Program in publications resulting
+#| from their use.
+#
+#| Some of the data in these files are preliminary  and are subject to final
+#| calibration and processing. Users should maintain caution in their
+#| interpretation and use. See header comments within the file for more information.
+#
