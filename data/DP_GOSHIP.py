@@ -22,7 +22,7 @@ LonW=-180
 GitHubDir='/Users/Ellen/Documents/GitHub/6862-project/'
 BottleDataFiles=glob.glob(GitHubDir+'data/GOSHIP_Data/cchdo_search_results/*')
 BottleDataFiles=sorted(BottleDataFiles)
-OutFileDir=GitHubDir+'data/GOSHIP_Data/'
+OutFileDir=GitHubDir+'data/GOSHIP_Data/RegionSortedData/'
 
 df_counter=0
 
