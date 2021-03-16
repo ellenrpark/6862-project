@@ -70,10 +70,14 @@ for GOFile in DataFileList:
         
         for num in BadQC:
             # Salinity
-            # if s_flag[0]==1:
-            #     Data.loc[Data['CTDSAL_FLAG_W']==num,'CTDSAL_FLAG_W']=np.NaN
-            # elif s_flag[1]==1:
-            #     Data.loc[Data['SALNTY_FLAG_W']==num,'SALNTY_FLAG_W']=np.NaN
+            if s_flag[0]==1:
+                for var in Variables:
+                    if var == 'CTDSAL_FLAG_W':
+                        Data.loc[Data['CTDSAL_FLAG_W']==num,'CTDSAL_FLAG_W']=np.NaN
+            elif s_flag[1]==1:
+                for var in Variables:
+                    if var == 'SALNTY_FLAG_W':
+                        Data.loc[Data['SALNTY_FLAG_W']==num,'SALNTY_FLAG_W']=np.NaN
             
             # Oxygen 
             Data.loc[Data['OXYGEN_FLAG_W']==num,'OXYGEN_FLAG_W']=np.NaN
@@ -111,9 +115,9 @@ for GOFile in DataFileList:
             sal=Data.loc[:,'SALNTY']
             
         if n_flag[0]==1:
-            nit=sil=Data.loc[:,'NITRAT']
+            nit=Data.loc[:,'NITRAT']
         elif n_flag[1]==1:
-            nit=sil=Data.loc[:,'NO2+NO3']
+            nit=Data.loc[:,'NO2+NO3']
         
         df_temp=pd.DataFrame({'EXPOCODE':exp, 'DATE':date,'LATITUDE':lat,'LONGITUDE':lon,
                       'PRES':pres,'TEMP':temp,'SAL':sal,'OXY':oxy,'NITR':nit,'PHSP':phs,
@@ -122,6 +126,18 @@ for GOFile in DataFileList:
         AllData=AllData.append(df_temp)
         
 AllData=AllData.iloc[1:,:]   
+
+## Reformat dates
+new_dates=[[]]*AllData.shape[0]
+old_dates=AllData.loc[:,'DATE'].to_numpy()
+months=[[]]*AllData.shape[0]
+for i in np.arange(len(new_dates)):
+    t=str(int(old_dates[i]))
+    new_dates[i]=t[0:4]+'-'+t[4:6]+'-'+t[6:]
+    months[i]=int(t[4:6])
+
+AllData['DATE']=new_dates
+AllData['MONTH']=months
 
 AllData.to_csv(OutDir+'QCFilteredData.csv')     
         
