@@ -125,7 +125,13 @@ for GOFile in DataFileList:
         
         AllData=AllData.append(df_temp)
         
-AllData=AllData.iloc[1:,:]   
+
+AllData=AllData.iloc[1:,:]  
+AllData=AllData.replace(-999, np.NaN) 
+
+AllData=AllData.dropna()
+new_ind=np.arange(AllData.shape[0])
+AllData=AllData.set_index(pd.Index(list(new_ind)))
 
 ## Reformat dates
 new_dates=[[]]*AllData.shape[0]
