@@ -69,6 +69,22 @@ plt.xlabel('P true')
 plt.ylabel('P predicted')
 plt.savefig(FigDir+'P_LinearRegression_Cropped.jpg')
 
+fig, axs = plt.subplots (2,4, figsize=(10,6))
+Features=['MONTH','LATITUDE', 'LONGITUDE','PRES','TEMP','SAL','OXY','NITR','PHSP','SILI']
+for i in np.arange(1,8):
+    
+    ax = plt.subplot(2,4,i)
+    x_data=X.iloc[:, 11+i]
+    
+    ax.scatter(x_data, P_predict)
+    ax.set_ylabel('P predicted')
+    ax.set_xlabel(Features[i])
+    ax.set_title(Features[i])
+
+plt.subplots_adjust(hspace=0.4, wspace=0.5)
+plt.suptitle('P predicted vs. x-values')
+plt.savefig(FigDir+'P_LinearRegression_Xvalues.jpg')
+
 ## Silicte ##
 S_reg=LinearRegression().fit(X,Y2)
 S_score=S_reg.score(X,Y2)
@@ -97,5 +113,20 @@ plt.ylim((-6,4))
 plt.xlabel('S true')
 plt.ylabel('S predicted')
 plt.savefig(FigDir+'S_LinearRegression_Cropped.jpg')
+
+fig, axs = plt.subplots (2,4, figsize=(10,6))
+for i in np.arange(1,8):
+
+    ax = plt.subplot(2,4,i)
+    x_data=X.iloc[:, 11+i]
+    
+    ax.scatter(x_data, S_predict)
+    ax.set_ylabel('S predicted')
+    ax.set_xlabel(Features[i])
+    ax.set_title(Features[i])
+
+plt.subplots_adjust(hspace=0.4, wspace=0.5)
+plt.suptitle('S predicted vs. x-values')
+plt.savefig(FigDir+'S_LinearRegression_Xvalues.jpg')
 
 plt.show()
