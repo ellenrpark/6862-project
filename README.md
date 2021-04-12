@@ -4,13 +4,14 @@
 Our repository is structured in the following manner:
 - main: contains all of our code for data analysis
   - data: contains directories of data (that is small enough to be uploaded to GitHub) and data processing code (reformatting data, quality control)
+  - figures: contains figures produced by our analysis and code
 ## Description of code
 ### Main
--***MILESTONE_CODE***
+- ***MILESTONE_CODE***
   - Consolidated analysis (cross-validation, linear regression) of GOSHIP data to predict phosphate and silicate values; uses different methods of encoding position (none, raw, radians) and month (none, thermometer code, sin-cosine pair)
--***GOSHIPData_map***
+- ***GOSHIPData_map***
   - Creates maps and timeseries of GOSHIP data over different depth ranges
-  
+
 ### Data
 - ***DP_GOSHIP***
   - Reformats GOSHIP bottle data into csv files for varaibles of interest; Code will open original GO-SHIP bottle data and save data that is in region of interest as a csv file that can easily be read-in and a txt file that saves data notes
