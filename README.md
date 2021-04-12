@@ -1,5 +1,8 @@
 # 6862-project: Estimating Critical Biogeochemistry of the Southern Ocean Using Machine Learning Techniques
 
+## Project Overview
+Autonomous Biogeochemical-Argo (BGC-Argo) floats offer an opportunity for year-round sampling of remote regions of the Southern Ocean, but are limited in the variables they can directly measure. In this project we use machine learning-based regression methods to predict values of silicate and phosphate from inputs of temperature, salinity, oxygen, nitrate, date, and location. We train our models using ship transect data with the ultimate goal of predicting phosphate and silicate BGC-Argo float data and comparing it to the output from Earth System Models. In our preliminary results we report success using an ordinary least squares regression, with higher accuracy predicting values of phosphate compared to silicate. Future work on the project will incorporate the use of Bayesian methods to improve upon the scores of our baseline estimator and the application of our estimators to BGC-Argo float data.
+
 ## Repository Overview
 Our repository is structured in the following manner:
 - main: contains all of our code for data analysis
