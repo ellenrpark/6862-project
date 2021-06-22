@@ -1,0 +1,47 @@
+---
+title: "ML_Milestone"
+author: "Nadège Aoki"
+date: "4/11/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+rm(list=ls()) ##clears global environment
+setwd("~/Desktop/MIT:WHOI/Classes/Spring 2021/6.862_6.036_ Machine_Learning/6.862/Project")
+```
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(dplyr)
+library(RColorBrewer)
+library(gridExtra)
+library(ggmap)
+```
+
+```{r}
+data <- read.csv("QCFilteredData.csv")
+data2 <- data %>% filter(EXPOCODE == "320620180309" & DATE == "2018-04-22")
+```
+
+```{r}
+p1 <- ggplot(data=data,aes(x=TEMP,y=PRES))+geom_point(color="lightsteelblue4")+ylim(6160,0)+ylab("Pressure (dbar)")+xlab("Temperature (ºC)")+geom_point(data=data2,aes(x=TEMP,y=PRES),color="skyblue3")
+
+p2 <- ggplot(data=data,aes(x=SAL,y=PRES))+geom_point(color="lightsteelblue4")+ylim(6160,0)+xlab("Salinity (PSU)")+theme(axis.title.y=element_blank())+geom_point(data=data2,aes(x=SAL,y=PRES),color="skyblue3")
+
+p3 <- ggplot(data=data,aes(x=NITR,y=PRES))+geom_point(color="lightsteelblue4")+ylim(6160,0)+xlab("Nitrate (µmol/kg)")+theme(axis.title.y=element_blank())+geom_point(data=data2,aes(x=NITR,y=PRES),color="skyblue3")
+
+p4 <- ggplot(data=data,aes(x=OXY,y=PRES))+geom_point(color="lightsteelblue4")+ylim(6160,0)+ylab("Pressure (dbar)")+xlab("Oxygen (µmol/kg)")+geom_point(data=data2,aes(x=OXY,y=PRES),color="skyblue3")
+
+p5 <- ggplot(data=data,aes(x=PHSP,y=PRES))+geom_point(color="lightsteelblue4")+xlab("Phosphate (µmol/kg)")+ylim(6160,0)+theme(axis.title.y=element_blank())+geom_point(data=data2,aes(x=PHSP,y=PRES),color="skyblue3")
+
+p6 <- ggplot(data=data,aes(x=SILI,y=PRES))+geom_point(color="lightsteelblue4")+xlab("Silicate (µmol/kg)")+ylim(6160,0)+theme(axis.title.y=element_blank())+geom_point(data=data2,aes(x=SILI,y=PRES),color="skyblue3")
+
+
+grid.arrange(p1,p2,p3,p4,p5,p6,nrow=2)
+```
+```{r}
+
+```
+
+
